@@ -1,4 +1,4 @@
-# Hyperledger Fabric: A Distributed Operating System for Permissioned Blockchains
+# Hyperledger Fabric: A Distributed Operating System for Permissioned Blockchains (https://arxiv.org/pdf/1801.10228.pdf)
 
 
 Open source system used for deploying and operating permissioned blockchains.
@@ -96,3 +96,14 @@ building blocks for each of the following components:
 - **Ledger maintenance**
     * Each peer locally maintains the ledger in the form of the append-only blockchain and as a snapshot of the most recent state in a key-value store (KVS). The KVS can be implemented by standard libraries, such
     as LevelDB or Apache CouchDB.
+
+
+## Document Description
+ - Section 2 summarizes the state of the art and explains the rationale behind various design decisions. 
+ 
+ - Section 3 introduces the architecture and the execute-order-validate approach of Fabric in detail, illustrating the transaction execution flow. 
+ 
+ - Section 4 the key components of Fabric are defined, in particular, the ordering service, membership service, peer-to-peer gossip, ledger database, and smart-contract API. 
+ 
+ - Section 5 Results and insights gained in a performance evaluation of Fabric with a Bitcoin-inspired cryptocurrency, deployed in a cluster environment on commodity public cloud VMs
+ 

@@ -1,0 +1,17 @@
+c:\users\alexandru.buzdugan\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+c:\users\alexandru.buzdugan\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+c:\users\alexandru.buzdugan\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+c:\users\alexandru.buzdugan\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+c:\users\alexandru.buzdugan\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+c:\users\alexandru.buzdugan\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\alexandru.buzdugan\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alexandru.buzdugan\documents\visual studio 2017\Projects\ConsoleApp2\ConsoleApp2\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\SistemeDistribuite\SistemeDistribuite\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+D:\Projects\SistemeDistribuite\SistemeDistribuite\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+D:\Projects\SistemeDistribuite\SistemeDistribuite\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+D:\Projects\SistemeDistribuite\SistemeDistribuite\ConsoleApp2\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\SistemeDistribuite\SistemeDistribuite\ConsoleApp2\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\SistemeDistribuite\SistemeDistribuite\ConsoleApp2\obj\Debug\ConsoleApp2.csprojResolveAssemblyReference.cache
+D:\Projects\SistemeDistribuite\SistemeDistribuite\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+D:\Projects\SistemeDistribuite\SistemeDistribuite\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+D:\Projects\SistemeDistribuite\SistemeDistribuite\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

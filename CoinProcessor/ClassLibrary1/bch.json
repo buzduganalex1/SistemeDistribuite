@@ -1,0 +1,2972 @@
+[
+	{
+		"date": "2017-08-03",
+		"txVolume": 420493677.867,
+		"txCount": 20909,
+		"marketcap": 7392030000,
+		"price": 448.49,
+		"exchangeVolume": 161518000,
+		"generatedCoins": 437.5,
+		"fees": 20.23473119
+	},
+	{
+		"date": "2017-08-04",
+		"txVolume": 447588072.612,
+		"txCount": 26517,
+		"marketcap": 5969720000,
+		"price": 362.18,
+		"exchangeVolume": 185038000,
+		"generatedCoins": 237.5,
+		"fees": 21.32449804
+	},
+	{
+		"date": "2017-08-05",
+		"txVolume": 231673055.86,
+		"txCount": 15194,
+		"marketcap": 3809330000,
+		"price": 231.11,
+		"exchangeVolume": 144043000,
+		"generatedCoins": 162.5,
+		"fees": 11.2242577601
+	},
+	{
+		"date": "2017-08-06",
+		"txVolume": 191471418.992,
+		"txCount": 11791,
+		"marketcap": 3497290000,
+		"price": 212.18,
+		"exchangeVolume": 107606000,
+		"generatedCoins": 812.5,
+		"fees": 9.15282496002
+	},
+	{
+		"date": "2017-08-07",
+		"txVolume": 282773638.305,
+		"txCount": 16114,
+		"marketcap": 3688360000,
+		"price": 223.76,
+		"exchangeVolume": 346546000,
+		"generatedCoins": 975,
+		"fees": 8.68035229999
+	},
+	{
+		"date": "2017-08-08",
+		"txVolume": 312076697.58,
+		"txCount": 12855,
+		"marketcap": 5297390000,
+		"price": 321.35,
+		"exchangeVolume": 274880000,
+		"generatedCoins": 287.5,
+		"fees": 8.44009814001
+	},
+	{
+		"date": "2017-08-09",
+		"txVolume": 189875351.956,
+		"txCount": 10798,
+		"marketcap": 5691960000,
+		"price": 345.28,
+		"exchangeVolume": 165032000,
+		"generatedCoins": 1187.5,
+		"fees": 5.51291228001
+	},
+	{
+		"date": "2017-08-10",
+		"txVolume": 135296549.811,
+		"txCount": 9949,
+		"marketcap": 5031790000,
+		"price": 305.21,
+		"exchangeVolume": 136637000,
+		"generatedCoins": 1250,
+		"fees": 5.30796253
+	},
+	{
+		"date": "2017-08-11",
+		"txVolume": 189923981.943,
+		"txCount": 10507,
+		"marketcap": 4548600000,
+		"price": 275.88,
+		"exchangeVolume": 233971000,
+		"generatedCoins": 837.5,
+		"fees": 4.78128428
+	},
+	{
+		"date": "2017-08-12",
+		"txVolume": 246619061.638,
+		"txCount": 7543,
+		"marketcap": 5405200000,
+		"price": 327.82,
+		"exchangeVolume": 126007000,
+		"generatedCoins": 900,
+		"fees": 4.60345208
+	},
+	{
+		"date": "2017-08-13",
+		"txVolume": 89313124.2911,
+		"txCount": 7814,
+		"marketcap": 5215330000,
+		"price": 316.29,
+		"exchangeVolume": 120722000,
+		"generatedCoins": 975,
+		"fees": 4.83887706
+	},
+	{
+		"date": "2017-08-14",
+		"txVolume": 142244610.723,
+		"txCount": 9833,
+		"marketcap": 4882720000,
+		"price": 296.1,
+		"exchangeVolume": 174968000,
+		"generatedCoins": 1137.5,
+		"fees": 5.78545113
+	},
+	{
+		"date": "2017-08-15",
+		"txVolume": 145080302.726,
+		"txCount": 7696,
+		"marketcap": 4917480000,
+		"price": 298.19,
+		"exchangeVolume": 133924000,
+		"generatedCoins": 1400,
+		"fees": 4.87569032
+	},
+	{
+		"date": "2017-08-16",
+		"txVolume": 100329093.162,
+		"txCount": 135552,
+		"marketcap": 4914350000,
+		"price": 297.97,
+		"exchangeVolume": 106436000,
+		"generatedCoins": 1050,
+		"fees": 4.35333251001
+	},
+	{
+		"date": "2017-08-17",
+		"txVolume": 270791381.501,
+		"txCount": 10813,
+		"marketcap": 4964980000,
+		"price": 301.02,
+		"exchangeVolume": 744605000,
+		"generatedCoins": 812.5,
+		"fees": 8.46124585999
+	},
+	{
+		"date": "2017-08-18",
+		"txVolume": 696156355.575,
+		"txCount": 22796,
+		"marketcap": 7565590000,
+		"price": 458.67,
+		"exchangeVolume": 3087490000,
+		"generatedCoins": 812.5,
+		"fees": 8.81946855001
+	},
+	{
+		"date": "2017-08-19",
+		"txVolume": 850459716.681,
+		"txCount": 27728,
+		"marketcap": 11498100000,
+		"price": 697.04,
+		"exchangeVolume": 3196230000,
+		"generatedCoins": 1637.5,
+		"fees": 11.99113257
+	},
+	{
+		"date": "2017-08-20",
+		"txVolume": 476531316.965,
+		"txCount": 19530,
+		"marketcap": 12742600000,
+		"price": 772.42,
+		"exchangeVolume": 1494020000,
+		"generatedCoins": 5800,
+		"fees": 8.876545
+	},
+	{
+		"date": "2017-08-21",
+		"txVolume": 329069548.516,
+		"txCount": 16436,
+		"marketcap": 11943100000,
+		"price": 723.7,
+		"exchangeVolume": 1123400000,
+		"generatedCoins": 9550,
+		"fees": 7.12165057
+	},
+	{
+		"date": "2017-08-22",
+		"txVolume": 472089714.071,
+		"txCount": 15033,
+		"marketcap": 9844620000,
+		"price": 596.19,
+		"exchangeVolume": 1393260000,
+		"generatedCoins": 10687.5,
+		"fees": 6.34074654
+	},
+	{
+		"date": "2017-08-23",
+		"txVolume": 344970799.637,
+		"txCount": 9684,
+		"marketcap": 11416800000,
+		"price": 690.96,
+		"exchangeVolume": 501983000,
+		"generatedCoins": 275,
+		"fees": 4.19772886
+	},
+	{
+		"date": "2017-08-24",
+		"txVolume": 748264395.26,
+		"txCount": 13311,
+		"marketcap": 11071100000,
+		"price": 670.03,
+		"exchangeVolume": 407177000,
+		"generatedCoins": 7112.5,
+		"fees": 7.21468871
+	},
+	{
+		"date": "2017-08-25",
+		"txVolume": 375608222.577,
+		"txCount": 10916,
+		"marketcap": 10365600000,
+		"price": 627.06,
+		"exchangeVolume": 348632000,
+		"generatedCoins": 8600,
+		"fees": 5.53354222001
+	},
+	{
+		"date": "2017-08-26",
+		"txVolume": 266767375.951,
+		"txCount": 8233,
+		"marketcap": 10616100000,
+		"price": 641.88,
+		"exchangeVolume": 193414000,
+		"generatedCoins": 8450,
+		"fees": 3.66496469
+	},
+	{
+		"date": "2017-08-27",
+		"txVolume": 277237421.11,
+		"txCount": 6328,
+		"marketcap": 10357000000,
+		"price": 625.89,
+		"exchangeVolume": 402718000,
+		"generatedCoins": 537.5,
+		"fees": 2.93697367999
+	},
+	{
+		"date": "2017-08-28",
+		"txVolume": 218358917.829,
+		"txCount": 10161,
+		"marketcap": 10254800000,
+		"price": 619.7,
+		"exchangeVolume": 216273000,
+		"generatedCoins": 2175,
+		"fees": 4.39485369
+	},
+	{
+		"date": "2017-08-29",
+		"txVolume": 586720549.1,
+		"txCount": 12858,
+		"marketcap": 9866110000,
+		"price": 596.13,
+		"exchangeVolume": 370017000,
+		"generatedCoins": 1775,
+		"fees": 5.11311822
+	},
+	{
+		"date": "2017-08-30",
+		"txVolume": 762988847.786,
+		"txCount": 15867,
+		"marketcap": 9092300000,
+		"price": 549.32,
+		"exchangeVolume": 443856000,
+		"generatedCoins": 1075,
+		"fees": 3.97986964995
+	},
+	{
+		"date": "2017-08-31",
+		"txVolume": 198901314.438,
+		"txCount": 13568,
+		"marketcap": 9538750000,
+		"price": 576.25,
+		"exchangeVolume": 298144000,
+		"generatedCoins": 1075,
+		"fees": 4.39237605999
+	},
+	{
+		"date": "2017-09-01",
+		"txVolume": 221605163.699,
+		"txCount": 10362,
+		"marketcap": 9740460000,
+		"price": 588.4,
+		"exchangeVolume": 393839000,
+		"generatedCoins": 1450,
+		"fees": 3.7594561
+	},
+	{
+		"date": "2017-09-02",
+		"txVolume": 210947758.461,
+		"txCount": 7858,
+		"marketcap": 10297000000,
+		"price": 621.96,
+		"exchangeVolume": 350478000,
+		"generatedCoins": 1675,
+		"fees": 2.77770443
+	},
+	{
+		"date": "2017-09-03",
+		"txVolume": 220102637.69,
+		"txCount": 7515,
+		"marketcap": 9574520000,
+		"price": 578.27,
+		"exchangeVolume": 344862000,
+		"generatedCoins": 1637.5,
+		"fees": 2.50160359
+	},
+	{
+		"date": "2017-09-04",
+		"txVolume": 382676045.729,
+		"txCount": 7599,
+		"marketcap": 10072200000,
+		"price": 608.26,
+		"exchangeVolume": 328957000,
+		"generatedCoins": 1612.5,
+		"fees": 4.31505577
+	},
+	{
+		"date": "2017-09-05",
+		"txVolume": 305974479.97,
+		"txCount": 7328,
+		"marketcap": 8527100000,
+		"price": 514.9,
+		"exchangeVolume": 338978000,
+		"generatedCoins": 1400,
+		"fees": 2.36431425999
+	},
+	{
+		"date": "2017-09-06",
+		"txVolume": 383228353.182,
+		"txCount": 8578,
+		"marketcap": 8964700000,
+		"price": 541.28,
+		"exchangeVolume": 693240000,
+		"generatedCoins": 1750,
+		"fees": 2.3711804
+	},
+	{
+		"date": "2017-09-07",
+		"txVolume": 247855861.127,
+		"txCount": 8677,
+		"marketcap": 10548500000,
+		"price": 636.85,
+		"exchangeVolume": 1082380000,
+		"generatedCoins": 2587.5,
+		"fees": 2.36196092
+	},
+	{
+		"date": "2017-09-08",
+		"txVolume": 250514723.559,
+		"txCount": 7552,
+		"marketcap": 10840500000,
+		"price": 654.37,
+		"exchangeVolume": 809763000,
+		"generatedCoins": 2350,
+		"fees": 1.71427558999
+	},
+	{
+		"date": "2017-09-09",
+		"txVolume": 492029519.093,
+		"txCount": 6257,
+		"marketcap": 9688150000,
+		"price": 584.73,
+		"exchangeVolume": 234578000,
+		"generatedCoins": 1975,
+		"fees": 1.52744926
+	},
+	{
+		"date": "2017-09-10",
+		"txVolume": 198431982.259,
+		"txCount": 5430,
+		"marketcap": 9055430000,
+		"price": 546.48,
+		"exchangeVolume": 289508000,
+		"generatedCoins": 1937.5,
+		"fees": 1.16558703
+	},
+	{
+		"date": "2017-09-11",
+		"txVolume": 416016536.824,
+		"txCount": 7256,
+		"marketcap": 8902570000,
+		"price": 537.19,
+		"exchangeVolume": 274712000,
+		"generatedCoins": 2175,
+		"fees": 1.20747464
+	},
+	{
+		"date": "2017-09-12",
+		"txVolume": 269289444.334,
+		"txCount": 5993,
+		"marketcap": 8934220000,
+		"price": 539.03,
+		"exchangeVolume": 273825000,
+		"generatedCoins": 2412.5,
+		"fees": 1.31772647
+	},
+	{
+		"date": "2017-09-13",
+		"txVolume": 143767433.094,
+		"txCount": 6356,
+		"marketcap": 8445540000,
+		"price": 509.47,
+		"exchangeVolume": 340344000,
+		"generatedCoins": 2150,
+		"fees": 1.31399
+	},
+	{
+		"date": "2017-09-14",
+		"txVolume": 259162452.295,
+		"txCount": 7296,
+		"marketcap": 8359650000,
+		"price": 504.22,
+		"exchangeVolume": 257431000,
+		"generatedCoins": 2325,
+		"fees": 2.22638457
+	},
+	{
+		"date": "2017-09-15",
+		"txVolume": 272121996.663,
+		"txCount": 8634,
+		"marketcap": 6126800000,
+		"price": 369.49,
+		"exchangeVolume": 707231000,
+		"generatedCoins": 2125,
+		"fees": 2.0176211
+	},
+	{
+		"date": "2017-09-16",
+		"txVolume": 224446395.467,
+		"txCount": 7809,
+		"marketcap": 7039590000,
+		"price": 424.49,
+		"exchangeVolume": 313583000,
+		"generatedCoins": 2137.5,
+		"fees": 1.84246263
+	},
+	{
+		"date": "2017-09-17",
+		"txVolume": 143731606.011,
+		"txCount": 5027,
+		"marketcap": 7279520000,
+		"price": 438.9,
+		"exchangeVolume": 221828000,
+		"generatedCoins": 2212.5,
+		"fees": 0.735145989998
+	},
+	{
+		"date": "2017-09-18",
+		"txVolume": 407052193.024,
+		"txCount": 8675,
+		"marketcap": 7001640000,
+		"price": 422.09,
+		"exchangeVolume": 458550000,
+		"generatedCoins": 4462.5,
+		"fees": 1.34094764
+	},
+	{
+		"date": "2017-09-19",
+		"txVolume": 672074861.052,
+		"txCount": 9520,
+		"marketcap": 7975010000,
+		"price": 480.64,
+		"exchangeVolume": 802321000,
+		"generatedCoins": 3325,
+		"fees": 1.42698772999
+	},
+	{
+		"date": "2017-09-20",
+		"txVolume": 264587502.297,
+		"txCount": 8099,
+		"marketcap": 8741670000,
+		"price": 526.74,
+		"exchangeVolume": 669264000,
+		"generatedCoins": 3100,
+		"fees": 1.38372934999
+	},
+	{
+		"date": "2017-09-21",
+		"txVolume": 230647720.384,
+		"txCount": 5859,
+		"marketcap": 7898300000,
+		"price": 475.83,
+		"exchangeVolume": 316731000,
+		"generatedCoins": 425,
+		"fees": 1.15108873
+	},
+	{
+		"date": "2017-09-22",
+		"txVolume": 491961913.2,
+		"txCount": 6746,
+		"marketcap": 6937170000,
+		"price": 417.92,
+		"exchangeVolume": 241905000,
+		"generatedCoins": 5125,
+		"fees": 1.28153827
+	},
+	{
+		"date": "2017-09-23",
+		"txVolume": 174871724.019,
+		"txCount": 5601,
+		"marketcap": 6895970000,
+		"price": 415.31,
+		"exchangeVolume": 189127000,
+		"generatedCoins": 4400,
+		"fees": 0.887500270001
+	},
+	{
+		"date": "2017-09-24",
+		"txVolume": 144226129.2,
+		"txCount": 6580,
+		"marketcap": 7121950000,
+		"price": 428.8,
+		"exchangeVolume": 114527000,
+		"generatedCoins": 3300,
+		"fees": 1.0734338
+	},
+	{
+		"date": "2017-09-25",
+		"txVolume": 257393315.052,
+		"txCount": 8976,
+		"marketcap": 6971280000,
+		"price": 419.65,
+		"exchangeVolume": 302272000,
+		"generatedCoins": 3525,
+		"fees": 1.36306084003
+	},
+	{
+		"date": "2017-09-26",
+		"txVolume": 195849631.467,
+		"txCount": 6464,
+		"marketcap": 7400020000,
+		"price": 445.36,
+		"exchangeVolume": 165303000,
+		"generatedCoins": 3912.5,
+		"fees": 1.09161226
+	},
+	{
+		"date": "2017-09-27",
+		"txVolume": 411882030.487,
+		"txCount": 8802,
+		"marketcap": 7343490000,
+		"price": 441.86,
+		"exchangeVolume": 197885000,
+		"generatedCoins": 3450,
+		"fees": 1.13267958
+	},
+	{
+		"date": "2017-09-28",
+		"txVolume": 366934794.302,
+		"txCount": 7926,
+		"marketcap": 7592000000,
+		"price": 456.71,
+		"exchangeVolume": 300421000,
+		"generatedCoins": 912.5,
+		"fees": 1.27726594
+	},
+	{
+		"date": "2017-09-29",
+		"txVolume": 241264407.87,
+		"txCount": 5755,
+		"marketcap": 7441960000,
+		"price": 447.66,
+		"exchangeVolume": 148725000,
+		"generatedCoins": 162.5,
+		"fees": 1.25288
+	},
+	{
+		"date": "2017-09-30",
+		"txVolume": 272005134.712,
+		"txCount": 8445,
+		"marketcap": 7258880000,
+		"price": 436.64,
+		"exchangeVolume": 150565000,
+		"generatedCoins": 7350,
+		"fees": 1.64584862
+	},
+	{
+		"date": "2017-10-01",
+		"txVolume": 402621317.595,
+		"txCount": 7883,
+		"marketcap": 7207770000,
+		"price": 433.38,
+		"exchangeVolume": 164290000,
+		"generatedCoins": 12125,
+		"fees": 1.25746341999
+	},
+	{
+		"date": "2017-10-02",
+		"txVolume": 277158752.298,
+		"txCount": 7252,
+		"marketcap": 6921580000,
+		"price": 415.87,
+		"exchangeVolume": 219590000,
+		"generatedCoins": 5462.5,
+		"fees": 1.2556313
+	},
+	{
+		"date": "2017-10-03",
+		"txVolume": 214354167.152,
+		"txCount": 4542,
+		"marketcap": 7022370000,
+		"price": 421.79,
+		"exchangeVolume": 130247000,
+		"generatedCoins": 175,
+		"fees": 1.02391342
+	},
+	{
+		"date": "2017-10-04",
+		"txVolume": 454621906.487,
+		"txCount": 9481,
+		"marketcap": 6729640000,
+		"price": 404.2,
+		"exchangeVolume": 251584000,
+		"generatedCoins": 10600,
+		"fees": 1.89150925
+	},
+	{
+		"date": "2017-10-05",
+		"txVolume": 466803431.917,
+		"txCount": 8625,
+		"marketcap": 5971260000,
+		"price": 358.42,
+		"exchangeVolume": 268341000,
+		"generatedCoins": 14112.5,
+		"fees": 2.39906598999
+	},
+	{
+		"date": "2017-10-06",
+		"txVolume": 352373797.734,
+		"txCount": 6088,
+		"marketcap": 5926540000,
+		"price": 355.44,
+		"exchangeVolume": 182031000,
+		"generatedCoins": 425,
+		"fees": 1.16513426999
+	},
+	{
+		"date": "2017-10-07",
+		"txVolume": 210554588.764,
+		"txCount": 5044,
+		"marketcap": 6062860000,
+		"price": 363.6,
+		"exchangeVolume": 91004000,
+		"generatedCoins": 1762.5,
+		"fees": 1.19532024
+	},
+	{
+		"date": "2017-10-08",
+		"txVolume": 358127141.719,
+		"txCount": 6828,
+		"marketcap": 6004940000,
+		"price": 360.09,
+		"exchangeVolume": 203754000,
+		"generatedCoins": 1337.5,
+		"fees": 1.58498505
+	},
+	{
+		"date": "2017-10-09",
+		"txVolume": 472693418.637,
+		"txCount": 9074,
+		"marketcap": 5716320000,
+		"price": 342.76,
+		"exchangeVolume": 288075000,
+		"generatedCoins": 1137.5,
+		"fees": 1.84858971998
+	},
+	{
+		"date": "2017-10-10",
+		"txVolume": 281080274.874,
+		"txCount": 8335,
+		"marketcap": 5224170000,
+		"price": 313.22,
+		"exchangeVolume": 367809000,
+		"generatedCoins": 1400,
+		"fees": 2.04591345
+	},
+	{
+		"date": "2017-10-11",
+		"txVolume": 209360493.974,
+		"txCount": 7284,
+		"marketcap": 5341000000,
+		"price": 320.2,
+		"exchangeVolume": 131577000,
+		"generatedCoins": 1250,
+		"fees": 1.92143734003
+	},
+	{
+		"date": "2017-10-12",
+		"txVolume": 386086853.641,
+		"txCount": 12256,
+		"marketcap": 5262390000,
+		"price": 315.47,
+		"exchangeVolume": 262066000,
+		"generatedCoins": 6950,
+		"fees": 3.01332509001
+	},
+	{
+		"date": "2017-10-13",
+		"txVolume": 270662770.292,
+		"txCount": 14947,
+		"marketcap": 5242630000,
+		"price": 314.15,
+		"exchangeVolume": 288210000,
+		"generatedCoins": 11612.5,
+		"fees": 4.41591041
+	},
+	{
+		"date": "2017-10-14",
+		"txVolume": 168166773.433,
+		"txCount": 12997,
+		"marketcap": 5369720000,
+		"price": 321.54,
+		"exchangeVolume": 164137000,
+		"generatedCoins": 1175,
+		"fees": 7.54337325001
+	},
+	{
+		"date": "2017-10-15",
+		"txVolume": 111586628.796,
+		"txCount": 8288,
+		"marketcap": 5384760000,
+		"price": 322.42,
+		"exchangeVolume": 133385000,
+		"generatedCoins": 525,
+		"fees": 2.91138846
+	},
+	{
+		"date": "2017-10-16",
+		"txVolume": 213585312.512,
+		"txCount": 9968,
+		"marketcap": 5265400000,
+		"price": 315.26,
+		"exchangeVolume": 117797000,
+		"generatedCoins": 700,
+		"fees": 2.41668296001
+	},
+	{
+		"date": "2017-10-17",
+		"txVolume": 358118746.56,
+		"txCount": 13193,
+		"marketcap": 5239520000,
+		"price": 313.7,
+		"exchangeVolume": 1008160000,
+		"generatedCoins": 387.5,
+		"fees": 2.74179545001
+	},
+	{
+		"date": "2017-10-18",
+		"txVolume": 400441848.591,
+		"txCount": 10049,
+		"marketcap": 6240990000,
+		"price": 373.65,
+		"exchangeVolume": 477184000,
+		"generatedCoins": 1187.5,
+		"fees": 2.56346339999
+	},
+	{
+		"date": "2017-10-19",
+		"txVolume": 176022995.918,
+		"txCount": 9348,
+		"marketcap": 5667070000,
+		"price": 339.27,
+		"exchangeVolume": 195578000,
+		"generatedCoins": 1437.5,
+		"fees": 1.77423759001
+	},
+	{
+		"date": "2017-10-20",
+		"txVolume": 241984751.401,
+		"txCount": 18183,
+		"marketcap": 5527860000,
+		"price": 330.9,
+		"exchangeVolume": 160204000,
+		"generatedCoins": 1500,
+		"fees": 2.11907119
+	},
+	{
+		"date": "2017-10-21",
+		"txVolume": 160118563.829,
+		"txCount": 9069,
+		"marketcap": 5458980000,
+		"price": 326.75,
+		"exchangeVolume": 129938000,
+		"generatedCoins": 937.5,
+		"fees": 1.66897923
+	},
+	{
+		"date": "2017-10-22",
+		"txVolume": 168053926.921,
+		"txCount": 7376,
+		"marketcap": 5405020000,
+		"price": 323.5,
+		"exchangeVolume": 355546000,
+		"generatedCoins": 175,
+		"fees": 1.39896010001
+	},
+	{
+		"date": "2017-10-23",
+		"txVolume": 177188034.295,
+		"txCount": 9250,
+		"marketcap": 5524790000,
+		"price": 330.67,
+		"exchangeVolume": 191558000,
+		"generatedCoins": 1350,
+		"fees": 2.01424906
+	},
+	{
+		"date": "2017-10-24",
+		"txVolume": 182691690.845,
+		"txCount": 8717,
+		"marketcap": 5278410000,
+		"price": 315.9,
+		"exchangeVolume": 267442000,
+		"generatedCoins": 1975,
+		"fees": 1.86735472
+	},
+	{
+		"date": "2017-10-25",
+		"txVolume": 176364081.034,
+		"txCount": 10485,
+		"marketcap": 5457720000,
+		"price": 326.59,
+		"exchangeVolume": 151935000,
+		"generatedCoins": 2150,
+		"fees": 1.98621041
+	},
+	{
+		"date": "2017-10-26",
+		"txVolume": 199960479.134,
+		"txCount": 9350,
+		"marketcap": 5550700000,
+		"price": 332.11,
+		"exchangeVolume": 234967000,
+		"generatedCoins": 4987.5,
+		"fees": 1.89708771
+	},
+	{
+		"date": "2017-10-27",
+		"txVolume": 228240103.409,
+		"txCount": 11743,
+		"marketcap": 5655870000,
+		"price": 338.3,
+		"exchangeVolume": 501989000,
+		"generatedCoins": 14600,
+		"fees": 2.39550734
+	},
+	{
+		"date": "2017-10-28",
+		"txVolume": 443407504.195,
+		"txCount": 11800,
+		"marketcap": 6183520000,
+		"price": 369.54,
+		"exchangeVolume": 781037000,
+		"generatedCoins": 15675,
+		"fees": 2.23479461999
+	},
+	{
+		"date": "2017-10-29",
+		"txVolume": 734735370.457,
+		"txCount": 12962,
+		"marketcap": 7042260000,
+		"price": 420.47,
+		"exchangeVolume": 2002440000,
+		"generatedCoins": 1162.5,
+		"fees": 2.45184143999
+	},
+	{
+		"date": "2017-10-30",
+		"txVolume": 556797729.196,
+		"txCount": 14855,
+		"marketcap": 7679000000,
+		"price": 458.45,
+		"exchangeVolume": 796409000,
+		"generatedCoins": 912.5,
+		"fees": 3.254575
+	},
+	{
+		"date": "2017-10-31",
+		"txVolume": 350825008.695,
+		"txCount": 11353,
+		"marketcap": 7527260000,
+		"price": 449.37,
+		"exchangeVolume": 343799000,
+		"generatedCoins": 962.5,
+		"fees": 2.18451816
+	},
+	{
+		"date": "2017-11-01",
+		"txVolume": 481242998.42,
+		"txCount": 13645,
+		"marketcap": 7342250000,
+		"price": 438.3,
+		"exchangeVolume": 1152230000,
+		"generatedCoins": 1000,
+		"fees": 3.06784607001
+	},
+	{
+		"date": "2017-11-02",
+		"txVolume": 716951960.015,
+		"txCount": 17751,
+		"marketcap": 8840010000,
+		"price": 527.68,
+		"exchangeVolume": 1632060000,
+		"generatedCoins": 1012.5,
+		"fees": 3.93366783
+	},
+	{
+		"date": "2017-11-03",
+		"txVolume": 902567144.49,
+		"txCount": 22425,
+		"marketcap": 9839760000,
+		"price": 587.32,
+		"exchangeVolume": 1682210000,
+		"generatedCoins": 4437.5,
+		"fees": 4.2538031
+	},
+	{
+		"date": "2017-11-04",
+		"txVolume": 444578842.295,
+		"txCount": 15077,
+		"marketcap": 10647200000,
+		"price": 635.35,
+		"exchangeVolume": 1161370000,
+		"generatedCoins": 3750,
+		"fees": 2.82618354001
+	},
+	{
+		"date": "2017-11-05",
+		"txVolume": 445541216.03,
+		"txCount": 16958,
+		"marketcap": 10390900000,
+		"price": 619.91,
+		"exchangeVolume": 816028000,
+		"generatedCoins": 2275,
+		"fees": 3.10678128
+	},
+	{
+		"date": "2017-11-06",
+		"txVolume": 659813587.146,
+		"txCount": 19297,
+		"marketcap": 10566600000,
+		"price": 630.31,
+		"exchangeVolume": 794105000,
+		"generatedCoins": 2787.5,
+		"fees": 2.92330696
+	},
+	{
+		"date": "2017-11-07",
+		"txVolume": 427648531.207,
+		"txCount": 17192,
+		"marketcap": 10105200000,
+		"price": 602.68,
+		"exchangeVolume": 375367000,
+		"generatedCoins": 2775,
+		"fees": 3.41629939999
+	},
+	{
+		"date": "2017-11-08",
+		"txVolume": 809767593.997,
+		"txCount": 23218,
+		"marketcap": 10317500000,
+		"price": 615.24,
+		"exchangeVolume": 837646000,
+		"generatedCoins": 2725,
+		"fees": 4.12320792
+	},
+	{
+		"date": "2017-11-09",
+		"txVolume": 1118960333.74,
+		"txCount": 24815,
+		"marketcap": 10437700000,
+		"price": 622.31,
+		"exchangeVolume": 710387000,
+		"generatedCoins": 1762.5,
+		"fees": 4.45365019001
+	},
+	{
+		"date": "2017-11-10",
+		"txVolume": 3918163445.43,
+		"txCount": 46855,
+		"marketcap": 10933000000,
+		"price": 651.77,
+		"exchangeVolume": 5195420000,
+		"generatedCoins": 5675,
+		"fees": 8.12904659008
+	},
+	{
+		"date": "2017-11-11",
+		"txVolume": 6366966068.53,
+		"txCount": 46787,
+		"marketcap": 16807400000,
+		"price": 1001.64,
+		"exchangeVolume": 5139770000,
+		"generatedCoins": 9300,
+		"fees": 8.19722994006
+	},
+	{
+		"date": "2017-11-12",
+		"txVolume": 7083815079.86,
+		"txCount": 76458,
+		"marketcap": 22614400000,
+		"price": 1346.97,
+		"exchangeVolume": 8371320000,
+		"generatedCoins": 10862.5,
+		"fees": 14.59882916
+	},
+	{
+		"date": "2017-11-13",
+		"txVolume": 3143076570.21,
+		"txCount": 35112,
+		"marketcap": 23214700000,
+		"price": 1381.82,
+		"exchangeVolume": 4850570000,
+		"generatedCoins": 762.5,
+		"fees": 8.31108119
+	},
+	{
+		"date": "2017-11-14",
+		"txVolume": 1511310959.28,
+		"txCount": 24406,
+		"marketcap": 22626200000,
+		"price": 1346.73,
+		"exchangeVolume": 1697910000,
+		"generatedCoins": 1700,
+		"fees": 8.0931007
+	},
+	{
+		"date": "2017-11-15",
+		"txVolume": 2027736086.16,
+		"txCount": 24790,
+		"marketcap": 21335600000,
+		"price": 1269.79,
+		"exchangeVolume": 1321780000,
+		"generatedCoins": 2112.5,
+		"fees": 7.43158824001
+	},
+	{
+		"date": "2017-11-16",
+		"txVolume": 1404435967.45,
+		"txCount": 28469,
+		"marketcap": 20202000000,
+		"price": 1202.17,
+		"exchangeVolume": 2034690000,
+		"generatedCoins": 1025,
+		"fees": 7.97368086001
+	},
+	{
+		"date": "2017-11-17",
+		"txVolume": 1956141566.76,
+		"txCount": 22432,
+		"marketcap": 15279000000,
+		"price": 909.16,
+		"exchangeVolume": 3203430000,
+		"generatedCoins": 1950,
+		"fees": 9.22575883
+	},
+	{
+		"date": "2017-11-18",
+		"txVolume": 1481122861.05,
+		"txCount": 22013,
+		"marketcap": 20125900000,
+		"price": 1197.43,
+		"exchangeVolume": 3053770000,
+		"generatedCoins": 2075,
+		"fees": 6.2505701
+	},
+	{
+		"date": "2017-11-19",
+		"txVolume": 1827301432.38,
+		"txCount": 14869,
+		"marketcap": 21196200000,
+		"price": 1260.95,
+		"exchangeVolume": 1285910000,
+		"generatedCoins": 1662.5,
+		"fees": 4.09528383999
+	},
+	{
+		"date": "2017-11-20",
+		"txVolume": 1107659038.26,
+		"txCount": 15738,
+		"marketcap": 19710200000,
+		"price": 1172.43,
+		"exchangeVolume": 800053000,
+		"generatedCoins": 1762.5,
+		"fees": 3.60323072
+	},
+	{
+		"date": "2017-11-21",
+		"txVolume": 1578425751.41,
+		"txCount": 18071,
+		"marketcap": 20525100000,
+		"price": 1220.78,
+		"exchangeVolume": 772859000,
+		"generatedCoins": 1912.5,
+		"fees": 4.30914317
+	},
+	{
+		"date": "2017-11-22",
+		"txVolume": 1585017288.68,
+		"txCount": 18927,
+		"marketcap": 19758600000,
+		"price": 1175.06,
+		"exchangeVolume": 1517620000,
+		"generatedCoins": 1862.5,
+		"fees": 9.38299134999
+	},
+	{
+		"date": "2017-11-23",
+		"txVolume": 1721300584.89,
+		"txCount": 27057,
+		"marketcap": 21899400000,
+		"price": 1302.23,
+		"exchangeVolume": 4112090000,
+		"generatedCoins": 2012.5,
+		"fees": 3.40935394999
+	},
+	{
+		"date": "2017-11-24",
+		"txVolume": 1700441784.33,
+		"txCount": 24345,
+		"marketcap": 27782400000,
+		"price": 1651.86,
+		"exchangeVolume": 3128960000,
+		"generatedCoins": 1637.5,
+		"fees": 3.23172586
+	},
+	{
+		"date": "2017-11-25",
+		"txVolume": 1151359033.08,
+		"txCount": 18565,
+		"marketcap": 27484900000,
+		"price": 1634,
+		"exchangeVolume": 1560040000,
+		"generatedCoins": 1837.5,
+		"fees": 2.72247894
+	},
+	{
+		"date": "2017-11-26",
+		"txVolume": 903079478.824,
+		"txCount": 18929,
+		"marketcap": 26434500000,
+		"price": 1571.39,
+		"exchangeVolume": 1593050000,
+		"generatedCoins": 1762.5,
+		"fees": 2.33252906
+	},
+	{
+		"date": "2017-11-27",
+		"txVolume": 2333463864.88,
+		"txCount": 20146,
+		"marketcap": 28986800000,
+		"price": 1722.93,
+		"exchangeVolume": 1391460000,
+		"generatedCoins": 1525,
+		"fees": 2.52455452
+	},
+	{
+		"date": "2017-11-28",
+		"txVolume": 2603549986.9,
+		"txCount": 23380,
+		"marketcap": 27277200000,
+		"price": 1621.17,
+		"exchangeVolume": 1274880000,
+		"generatedCoins": 1812.5,
+		"fees": 2.63699524001
+	},
+	{
+		"date": "2017-11-29",
+		"txVolume": 2393875824.77,
+		"txCount": 28233,
+		"marketcap": 25941800000,
+		"price": 1541.63,
+		"exchangeVolume": 2345250000,
+		"generatedCoins": 1774.85590507,
+		"fees": 3.30871310001
+	},
+	{
+		"date": "2017-11-30",
+		"txVolume": 1746643605.52,
+		"txCount": 21815,
+		"marketcap": 23230400000,
+		"price": 1380.36,
+		"exchangeVolume": 1211730000,
+		"generatedCoins": 1675,
+		"fees": 2.35942721999
+	},
+	{
+		"date": "2017-12-01",
+		"txVolume": 1116284839.96,
+		"txCount": 19169,
+		"marketcap": 23257100000,
+		"price": 1381.81,
+		"exchangeVolume": 965151000,
+		"generatedCoins": 1850,
+		"fees": 2.18879575
+	},
+	{
+		"date": "2017-12-02",
+		"txVolume": 1040892367.22,
+		"txCount": 17581,
+		"marketcap": 24610500000,
+		"price": 1462.06,
+		"exchangeVolume": 574510000,
+		"generatedCoins": 1712.5,
+		"fees": 1.95560365
+	},
+	{
+		"date": "2017-12-03",
+		"txVolume": 1544018413.35,
+		"txCount": 21761,
+		"marketcap": 24163600000,
+		"price": 1435.36,
+		"exchangeVolume": 1476740000,
+		"generatedCoins": 1787.5,
+		"fees": 2.25182489001
+	},
+	{
+		"date": "2017-12-04",
+		"txVolume": 1602788806.22,
+		"txCount": 21854,
+		"marketcap": 26267300000,
+		"price": 1560.16,
+		"exchangeVolume": 780634000,
+		"generatedCoins": 1775,
+		"fees": 2.23789110001
+	},
+	{
+		"date": "2017-12-05",
+		"txVolume": 1867736673.23,
+		"txCount": 20813,
+		"marketcap": 26606900000,
+		"price": 1580.16,
+		"exchangeVolume": 1032800000,
+		"generatedCoins": 1850,
+		"fees": 2.15972999001
+	},
+	{
+		"date": "2017-12-06",
+		"txVolume": 2312020594.5,
+		"txCount": 26703,
+		"marketcap": 25234400000,
+		"price": 1498.49,
+		"exchangeVolume": 1154620000,
+		"generatedCoins": 1950,
+		"fees": 3.11935040999
+	},
+	{
+		"date": "2017-12-07",
+		"txVolume": 1664284832.86,
+		"txCount": 24274,
+		"marketcap": 24095900000,
+		"price": 1430.71,
+		"exchangeVolume": 1285210000,
+		"generatedCoins": 950,
+		"fees": 2.98545941999
+	},
+	{
+		"date": "2017-12-08",
+		"txVolume": 12446260991.4,
+		"txCount": 27341,
+		"marketcap": 22386700000,
+		"price": 1329.16,
+		"exchangeVolume": 2553980000,
+		"generatedCoins": 2162.5,
+		"fees": 3.22386862
+	},
+	{
+		"date": "2017-12-09",
+		"txVolume": 2383547521.11,
+		"txCount": 18108,
+		"marketcap": 24671600000,
+		"price": 1464.63,
+		"exchangeVolume": 1059610000,
+		"generatedCoins": 1850,
+		"fees": 2.63721723001
+	},
+	{
+		"date": "2017-12-10",
+		"txVolume": 1674209812.57,
+		"txCount": 16352,
+		"marketcap": 23784900000,
+		"price": 1411.84,
+		"exchangeVolume": 885886000,
+		"generatedCoins": 1625,
+		"fees": 1.79230544
+	},
+	{
+		"date": "2017-12-11",
+		"txVolume": 1025706854.22,
+		"txCount": 22787,
+		"marketcap": 22239900000,
+		"price": 1320,
+		"exchangeVolume": 922792000,
+		"generatedCoins": 1825,
+		"fees": 2.41267119
+	},
+	{
+		"date": "2017-12-12",
+		"txVolume": 1620636490.36,
+		"txCount": 25125,
+		"marketcap": 24051800000,
+		"price": 1427.38,
+		"exchangeVolume": 1386250000,
+		"generatedCoins": 1800,
+		"fees": 2.84742061999
+	},
+	{
+		"date": "2017-12-13",
+		"txVolume": 2536909430.17,
+		"txCount": 23160,
+		"marketcap": 27249600000,
+		"price": 1616.99,
+		"exchangeVolume": 1245190000,
+		"generatedCoins": 1975,
+		"fees": 2.40974637
+	},
+	{
+		"date": "2017-12-14",
+		"txVolume": 3785265693.85,
+		"txCount": 35177,
+		"marketcap": 26977700000,
+		"price": 1600.67,
+		"exchangeVolume": 2717410000,
+		"generatedCoins": 1887.5,
+		"fees": 3.5602122
+	},
+	{
+		"date": "2017-12-15",
+		"txVolume": 2822854266.91,
+		"txCount": 28591,
+		"marketcap": 33284800000,
+		"price": 1974.66,
+		"exchangeVolume": 1457230000,
+		"generatedCoins": 1699.99577502,
+		"fees": 3.49314199
+	},
+	{
+		"date": "2017-12-16",
+		"txVolume": 1829889280.06,
+		"txCount": 25037,
+		"marketcap": 30762600000,
+		"price": 1824.85,
+		"exchangeVolume": 971255000,
+		"generatedCoins": 1550,
+		"fees": 3.32447723001
+	},
+	{
+		"date": "2017-12-17",
+		"txVolume": 1024788870.69,
+		"txCount": 28796,
+		"marketcap": 30554500000,
+		"price": 1812.33,
+		"exchangeVolume": 1020590000,
+		"generatedCoins": 1862.5,
+		"fees": 3.87252355
+	},
+	{
+		"date": "2017-12-18",
+		"txVolume": 2915033740.5,
+		"txCount": 32452,
+		"marketcap": 31516900000,
+		"price": 1869.21,
+		"exchangeVolume": 2538650000,
+		"generatedCoins": 2187.5,
+		"fees": 4.21425997001
+	},
+	{
+		"date": "2017-12-19",
+		"txVolume": 9494167287.85,
+		"txCount": 57288,
+		"marketcap": 37083300000,
+		"price": 2199.06,
+		"exchangeVolume": 3913340000,
+		"generatedCoins": 1887.5,
+		"fees": 6.67871052001
+	},
+	{
+		"date": "2017-12-20",
+		"txVolume": 13936577839.5,
+		"txCount": 127904,
+		"marketcap": 47644600000,
+		"price": 2825.03,
+		"exchangeVolume": 11889600000,
+		"generatedCoins": 2037.5,
+		"fees": 32.78148611
+	},
+	{
+		"date": "2017-12-21",
+		"txVolume": 6913188586.34,
+		"txCount": 77136,
+		"marketcap": 65933700000,
+		"price": 3909,
+		"exchangeVolume": 3664330000,
+		"generatedCoins": 1637.5,
+		"fees": 7.75477235001
+	},
+	{
+		"date": "2017-12-22",
+		"txVolume": 5742147570.65,
+		"txCount": 54048,
+		"marketcap": 56071800000,
+		"price": 3324,
+		"exchangeVolume": 3877770000,
+		"generatedCoins": 1575,
+		"fees": 6.53308475
+	},
+	{
+		"date": "2017-12-23",
+		"txVolume": 4013180458.72,
+		"txCount": 47006,
+		"marketcap": 46342000000,
+		"price": 2746.95,
+		"exchangeVolume": 2843310000,
+		"generatedCoins": 1987.5,
+		"fees": 4.34047209001
+	},
+	{
+		"date": "2017-12-24",
+		"txVolume": 2427966439.34,
+		"txCount": 34686,
+		"marketcap": 55013200000,
+		"price": 3260.55,
+		"exchangeVolume": 1712160000,
+		"generatedCoins": 1987.5,
+		"fees": 2.75322425
+	},
+	{
+		"date": "2017-12-25",
+		"txVolume": 2030654559.08,
+		"txCount": 28791,
+		"marketcap": 49430800000,
+		"price": 2929.35,
+		"exchangeVolume": 1355440000,
+		"generatedCoins": 1562.5,
+		"fees": 3.09369754001
+	},
+	{
+		"date": "2017-12-26",
+		"txVolume": 2027095981.21,
+		"txCount": 31570,
+		"marketcap": 49745700000,
+		"price": 2947.74,
+		"exchangeVolume": 1544430000,
+		"generatedCoins": 1787.5,
+		"fees": 2.64458879
+	},
+	{
+		"date": "2017-12-27",
+		"txVolume": 2722005793.25,
+		"txCount": 47033,
+		"marketcap": 52461200000,
+		"price": 3108.32,
+		"exchangeVolume": 1406450000,
+		"generatedCoins": 1775,
+		"fees": 5.07017577
+	},
+	{
+		"date": "2017-12-28",
+		"txVolume": 2890146498.76,
+		"txCount": 33174,
+		"marketcap": 48758700000,
+		"price": 2888.64,
+		"exchangeVolume": 3221300000,
+		"generatedCoins": 1837.5,
+		"fees": 3.19988789001
+	},
+	{
+		"date": "2017-12-29",
+		"txVolume": 2880421348.14,
+		"txCount": 43170,
+		"marketcap": 43677000000,
+		"price": 2587.3,
+		"exchangeVolume": 2479420000,
+		"generatedCoins": 1687.5,
+		"fees": 5.07105197001
+	},
+	{
+		"date": "2017-12-30",
+		"txVolume": 1931814672.64,
+		"txCount": 35630,
+		"marketcap": 47129800000,
+		"price": 2791.55,
+		"exchangeVolume": 1257760000,
+		"generatedCoins": 1975,
+		"fees": 4.99510947
+	},
+	{
+		"date": "2017-12-31",
+		"txVolume": 1329870462.53,
+		"txCount": 28315,
+		"marketcap": 40134900000,
+		"price": 2376.96,
+		"exchangeVolume": 1300820000,
+		"generatedCoins": 1775,
+		"fees": 4.01495387
+	},
+	{
+		"date": "2018-01-01",
+		"txVolume": 1642247317.68,
+		"txCount": 24050,
+		"marketcap": 42804800000,
+		"price": 2534.82,
+		"exchangeVolume": 922813000,
+		"generatedCoins": 1637.5,
+		"fees": 3.27212982
+	},
+	{
+		"date": "2018-01-02",
+		"txVolume": 2406613387.11,
+		"txCount": 42971,
+		"marketcap": 41114800000,
+		"price": 2434.5,
+		"exchangeVolume": 1831230000,
+		"generatedCoins": 1987.5,
+		"fees": 4.19690236999
+	},
+	{
+		"date": "2018-01-03",
+		"txVolume": 7642276318.92,
+		"txCount": 47394,
+		"marketcap": 45613300000,
+		"price": 2700.55,
+		"exchangeVolume": 4688840000,
+		"generatedCoins": 1650,
+		"fees": 4.16219664001
+	},
+	{
+		"date": "2018-01-04",
+		"txVolume": 4370271102.77,
+		"txCount": 51493,
+		"marketcap": 44069100000,
+		"price": 2608.87,
+		"exchangeVolume": 5377260000,
+		"generatedCoins": 1825,
+		"fees": 4.80237917
+	},
+	{
+		"date": "2018-01-05",
+		"txVolume": 5275469841.48,
+		"txCount": 46082,
+		"marketcap": 40557600000,
+		"price": 2400.74,
+		"exchangeVolume": 2115710000,
+		"generatedCoins": 1675,
+		"fees": 4.23417229001
+	},
+	{
+		"date": "2018-01-06",
+		"txVolume": 5256568703.04,
+		"txCount": 40660,
+		"marketcap": 43653200000,
+		"price": 2583.71,
+		"exchangeVolume": 1669160000,
+		"generatedCoins": 1912.5,
+		"fees": 3.15300169001
+	},
+	{
+		"date": "2018-01-07",
+		"txVolume": 3325338427.87,
+		"txCount": 36338,
+		"marketcap": 47054000000,
+		"price": 2784.68,
+		"exchangeVolume": 1444780000,
+		"generatedCoins": 1837.5,
+		"fees": 8.79931547
+	},
+	{
+		"date": "2018-01-08",
+		"txVolume": 3948832712.23,
+		"txCount": 37027,
+		"marketcap": 47091600000,
+		"price": 2786.6,
+		"exchangeVolume": 1428900000,
+		"generatedCoins": 1575,
+		"fees": 12.46138623
+	},
+	{
+		"date": "2018-01-09",
+		"txVolume": 5230540652.09,
+		"txCount": 40223,
+		"marketcap": 40770900000,
+		"price": 2412.36,
+		"exchangeVolume": 1084750000,
+		"generatedCoins": 1900,
+		"fees": 6.60752891999
+	},
+	{
+		"date": "2018-01-10",
+		"txVolume": 3278231085.14,
+		"txCount": 42595,
+		"marketcap": 40398000000,
+		"price": 2390.02,
+		"exchangeVolume": 2578810000,
+		"generatedCoins": 1975,
+		"fees": 7.66417152001
+	},
+	{
+		"date": "2018-01-11",
+		"txVolume": 3385134870.53,
+		"txCount": 35538,
+		"marketcap": 48880800000,
+		"price": 2891.55,
+		"exchangeVolume": 1947950000,
+		"generatedCoins": 1912.5,
+		"fees": 5.99672875
+	},
+	{
+		"date": "2018-01-12",
+		"txVolume": 8200906888.16,
+		"txCount": 34997,
+		"marketcap": 41859100000,
+		"price": 2475.9,
+		"exchangeVolume": 1110220000,
+		"generatedCoins": 1687.5,
+		"fees": 5.69679194003
+	},
+	{
+		"date": "2018-01-13",
+		"txVolume": 3814912607.5,
+		"txCount": 55684,
+		"marketcap": 44260300000,
+		"price": 2617.66,
+		"exchangeVolume": 1218570000,
+		"generatedCoins": 1887.5,
+		"fees": 6.06170251002
+	},
+	{
+		"date": "2018-01-14",
+		"txVolume": 1800538627.93,
+		"txCount": 110551,
+		"marketcap": 45439500000,
+		"price": 2687.1,
+		"exchangeVolume": 993310000,
+		"generatedCoins": 1887.5,
+		"fees": 11.45334225
+	},
+	{
+		"date": "2018-01-15",
+		"txVolume": 3435552552.53,
+		"txCount": 105658,
+		"marketcap": 42983500000,
+		"price": 2541.58,
+		"exchangeVolume": 1412360000,
+		"generatedCoins": 1575,
+		"fees": 10.36320726
+	},
+	{
+		"date": "2018-01-16",
+		"txVolume": 3059440034.97,
+		"txCount": 34235,
+		"marketcap": 40708800000,
+		"price": 2406.86,
+		"exchangeVolume": 1704030000,
+		"generatedCoins": 1775,
+		"fees": 6.12757129001
+	},
+	{
+		"date": "2018-01-17",
+		"txVolume": 2084293229.48,
+		"txCount": 39742,
+		"marketcap": 29899500000,
+		"price": 1767.58,
+		"exchangeVolume": 1457730000,
+		"generatedCoins": 1787.5,
+		"fees": 5.59885731002
+	},
+	{
+		"date": "2018-01-18",
+		"txVolume": 1533142202.68,
+		"txCount": 40297,
+		"marketcap": 29643600000,
+		"price": 1752.27,
+		"exchangeVolume": 1024060000,
+		"generatedCoins": 1900,
+		"fees": 5.18431713001
+	},
+	{
+		"date": "2018-01-19",
+		"txVolume": 811973416.011,
+		"txCount": 25075,
+		"marketcap": 29442200000,
+		"price": 1740.17,
+		"exchangeVolume": 743247000,
+		"generatedCoins": 1887.5,
+		"fees": 3.29693698
+	},
+	{
+		"date": "2018-01-20",
+		"txVolume": 765982717.697,
+		"txCount": 24322,
+		"marketcap": 30191500000,
+		"price": 1784.26,
+		"exchangeVolume": 1116240000,
+		"generatedCoins": 1587.5,
+		"fees": 3.53660992001
+	},
+	{
+		"date": "2018-01-21",
+		"txVolume": 502762683.976,
+		"txCount": 21762,
+		"marketcap": 34415500000,
+		"price": 2033.7,
+		"exchangeVolume": 745179000,
+		"generatedCoins": 1800,
+		"fees": 2.68572294
+	},
+	{
+		"date": "2018-01-22",
+		"txVolume": 705655285.879,
+		"txCount": 21865,
+		"marketcap": 30370200000,
+		"price": 1794.46,
+		"exchangeVolume": 681350000,
+		"generatedCoins": 1837.5,
+		"fees": 3.08441133
+	},
+	{
+		"date": "2018-01-23",
+		"txVolume": 792241039.208,
+		"txCount": 23842,
+		"marketcap": 27473700000,
+		"price": 1623.14,
+		"exchangeVolume": 578984000,
+		"generatedCoins": 2037.5,
+		"fees": 6.0519984
+	},
+	{
+		"date": "2018-01-24",
+		"txVolume": 825188442.245,
+		"txCount": 21773,
+		"marketcap": 27460200000,
+		"price": 1622.15,
+		"exchangeVolume": 488161000,
+		"generatedCoins": 1587.5,
+		"fees": 2.71300942999
+	},
+	{
+		"date": "2018-01-25",
+		"txVolume": 727885157.129,
+		"txCount": 24994,
+		"marketcap": 28121300000,
+		"price": 1661.04,
+		"exchangeVolume": 522194000,
+		"generatedCoins": 1912.5,
+		"fees": 2.98861816
+	},
+	{
+		"date": "2018-01-26",
+		"txVolume": 1162074994.91,
+		"txCount": 22111,
+		"marketcap": 27720500000,
+		"price": 1637.19,
+		"exchangeVolume": 594667000,
+		"generatedCoins": 1787.5,
+		"fees": 2.85848969001
+	},
+	{
+		"date": "2018-01-27",
+		"txVolume": 368765668.697,
+		"txCount": 18722,
+		"marketcap": 27136100000,
+		"price": 1602.5,
+		"exchangeVolume": 441742000,
+		"generatedCoins": 1825,
+		"fees": 2.2693748
+	},
+	{
+		"date": "2018-01-28",
+		"txVolume": 1280608386.14,
+		"txCount": 19414,
+		"marketcap": 27713300000,
+		"price": 1636.41,
+		"exchangeVolume": 580544000,
+		"generatedCoins": 1787.5,
+		"fees": 2.11383133
+	},
+	{
+		"date": "2018-01-29",
+		"txVolume": 721887993.954,
+		"txCount": 20970,
+		"marketcap": 29561500000,
+		"price": 1745.36,
+		"exchangeVolume": 362213000,
+		"generatedCoins": 1837.5,
+		"fees": 2.89573483
+	},
+	{
+		"date": "2018-01-30",
+		"txVolume": 1479216680.31,
+		"txCount": 27968,
+		"marketcap": 28079700000,
+		"price": 1657.69,
+		"exchangeVolume": 649823000,
+		"generatedCoins": 1937.5,
+		"fees": 3.0362149
+	},
+	{
+		"date": "2018-01-31",
+		"txVolume": 1876119060.56,
+		"txCount": 36542,
+		"marketcap": 24915700000,
+		"price": 1470.74,
+		"exchangeVolume": 729209000,
+		"generatedCoins": 1475,
+		"fees": 3.55814592
+	},
+	{
+		"date": "2018-02-01",
+		"txVolume": 955938011.961,
+		"txCount": 24194,
+		"marketcap": 25263200000,
+		"price": 1491.12,
+		"exchangeVolume": 678020000,
+		"generatedCoins": 2012.5,
+		"fees": 2.84223906
+	},
+	{
+		"date": "2018-02-02",
+		"txVolume": 1454195873.53,
+		"txCount": 25327,
+		"marketcap": 21561700000,
+		"price": 1272.5,
+		"exchangeVolume": 896666000,
+		"generatedCoins": 1624.99995,
+		"fees": 3.41397169
+	},
+	{
+		"date": "2018-02-03",
+		"txVolume": 549448291.296,
+		"txCount": 17699,
+		"marketcap": 20237400000,
+		"price": 1194.23,
+		"exchangeVolume": 453101000,
+		"generatedCoins": 1725,
+		"fees": 1.87721147001
+	},
+	{
+		"date": "2018-02-04",
+		"txVolume": 478799453.956,
+		"txCount": 16009,
+		"marketcap": 21577500000,
+		"price": 1273.17,
+		"exchangeVolume": 656034000,
+		"generatedCoins": 1887.5,
+		"fees": 2.00226516
+	},
+	{
+		"date": "2018-02-05",
+		"txVolume": 537576383.743,
+		"txCount": 20821,
+		"marketcap": 19659800000,
+		"price": 1159.89,
+		"exchangeVolume": 568117000,
+		"generatedCoins": 1675,
+		"fees": 2.33756986
+	},
+	{
+		"date": "2018-02-06",
+		"txVolume": 327884443.562,
+		"txCount": 21160,
+		"marketcap": 15103100000,
+		"price": 890.97,
+		"exchangeVolume": 777420000,
+		"generatedCoins": 1937.5,
+		"fees": 2.51286255001
+	},
+	{
+		"date": "2018-02-07",
+		"txVolume": 304562339.108,
+		"txCount": 21149,
+		"marketcap": 16462900000,
+		"price": 971.08,
+		"exchangeVolume": 866222000,
+		"generatedCoins": 1825,
+		"fees": 2.34672504
+	},
+	{
+		"date": "2018-02-08",
+		"txVolume": 437108989.496,
+		"txCount": 22268,
+		"marketcap": 16133900000,
+		"price": 951.57,
+		"exchangeVolume": 2203710000,
+		"generatedCoins": 2050,
+		"fees": 3.41336554
+	},
+	{
+		"date": "2018-02-09",
+		"txVolume": 896930527.124,
+		"txCount": 22390,
+		"marketcap": 21601200000,
+		"price": 1273.87,
+		"exchangeVolume": 1133760000,
+		"generatedCoins": 1575,
+		"fees": 2.8309052
+	},
+	{
+		"date": "2018-02-10",
+		"txVolume": 517422719.372,
+		"txCount": 23849,
+		"marketcap": 22249700000,
+		"price": 1311.99,
+		"exchangeVolume": 734606000,
+		"generatedCoins": 1937.5,
+		"fees": 2.41950994
+	},
+	{
+		"date": "2018-02-11",
+		"txVolume": 333793051.951,
+		"txCount": 16767,
+		"marketcap": 21295600000,
+		"price": 1255.59,
+		"exchangeVolume": 651555000,
+		"generatedCoins": 1762.5,
+		"fees": 1.70621204
+	},
+	{
+		"date": "2018-02-12",
+		"txVolume": 480487766.803,
+		"txCount": 19744,
+		"marketcap": 20735400000,
+		"price": 1222.43,
+		"exchangeVolume": 466213000,
+		"generatedCoins": 1862.5,
+		"fees": 2.15766164
+	},
+	{
+		"date": "2018-02-13",
+		"txVolume": 289614061.62,
+		"txCount": 20706,
+		"marketcap": 21803000000,
+		"price": 1285.23,
+		"exchangeVolume": 442663000,
+		"generatedCoins": 1700,
+		"fees": 2.14401108
+	},
+	{
+		"date": "2018-02-14",
+		"txVolume": 376177834.329,
+		"txCount": 21342,
+		"marketcap": 20854300000,
+		"price": 1229.18,
+		"exchangeVolume": 629852000,
+		"generatedCoins": 1762.5,
+		"fees": 2.4699299
+	},
+	{
+		"date": "2018-02-15",
+		"txVolume": 898761199.781,
+		"txCount": 23467,
+		"marketcap": 23053300000,
+		"price": 1358.65,
+		"exchangeVolume": 502454000,
+		"generatedCoins": 1837.5,
+		"fees": 2.76765234
+	},
+	{
+		"date": "2018-02-16",
+		"txVolume": 480869820.655,
+		"txCount": 21584,
+		"marketcap": 23302000000,
+		"price": 1373.16,
+		"exchangeVolume": 961010000,
+		"generatedCoins": 1887.5,
+		"fees": 2.83892717
+	},
+	{
+		"date": "2018-02-17",
+		"txVolume": 229730754.938,
+		"txCount": 19905,
+		"marketcap": 26280100000,
+		"price": 1548.48,
+		"exchangeVolume": 641719000,
+		"generatedCoins": 1725,
+		"fees": 2.52008212
+	},
+	{
+		"date": "2018-02-18",
+		"txVolume": 312842466.104,
+		"txCount": 19746,
+		"marketcap": 26344200000,
+		"price": 1552.1,
+		"exchangeVolume": 907873000,
+		"generatedCoins": 1762.5,
+		"fees": 2.23481324
+	},
+	{
+		"date": "2018-02-19",
+		"txVolume": 268045537.777,
+		"txCount": 18498,
+		"marketcap": 25179700000,
+		"price": 1483.34,
+		"exchangeVolume": 578906000,
+		"generatedCoins": 1812.5,
+		"fees": 2.46637838
+	},
+	{
+		"date": "2018-02-20",
+		"txVolume": 413015066.874,
+		"txCount": 20715,
+		"marketcap": 26199800000,
+		"price": 1543.27,
+		"exchangeVolume": 820947000,
+		"generatedCoins": 1737.5,
+		"fees": 2.97570468
+	},
+	{
+		"date": "2018-02-21",
+		"txVolume": 337701556.923,
+		"txCount": 19156,
+		"marketcap": 23988100000,
+		"price": 1412.85,
+		"exchangeVolume": 575354000,
+		"generatedCoins": 1762.5,
+		"fees": 2.6931827
+	},
+	{
+		"date": "2018-02-22",
+		"txVolume": 913023844.998,
+		"txCount": 18988,
+		"marketcap": 22153600000,
+		"price": 1304.66,
+		"exchangeVolume": 475079000,
+		"generatedCoins": 1775,
+		"fees": 2.40135795
+	},
+	{
+		"date": "2018-02-23",
+		"txVolume": 358833666.668,
+		"txCount": 17589,
+		"marketcap": 20673300000,
+		"price": 1217.36,
+		"exchangeVolume": 492542000,
+		"generatedCoins": 1762.5,
+		"fees": 2.25431197
+	},
+	{
+		"date": "2018-02-24",
+		"txVolume": 282622303.682,
+		"txCount": 15909,
+		"marketcap": 21511100000,
+		"price": 1266.56,
+		"exchangeVolume": 413263000,
+		"generatedCoins": 1825,
+		"fees": 1.92867463
+	},
+	{
+		"date": "2018-02-25",
+		"txVolume": 313473803.326,
+		"txCount": 14810,
+		"marketcap": 20235800000,
+		"price": 1191.35,
+		"exchangeVolume": 362665000,
+		"generatedCoins": 1750,
+		"fees": 1.91500568001
+	},
+	{
+		"date": "2018-02-26",
+		"txVolume": 299417517.088,
+		"txCount": 32393,
+		"marketcap": 20004000000,
+		"price": 1177.58,
+		"exchangeVolume": 460182000,
+		"generatedCoins": 1862.5,
+		"fees": 2.26935268
+	},
+	{
+		"date": "2018-02-27",
+		"txVolume": 626800051.81,
+		"txCount": 19160,
+		"marketcap": 21329300000,
+		"price": 1255.45,
+		"exchangeVolume": 420912000,
+		"generatedCoins": 1650,
+		"fees": 1.29397776
+	},
+	{
+		"date": "2018-02-28",
+		"txVolume": 309542036.155,
+		"txCount": 19562,
+		"marketcap": 21124100000,
+		"price": 1243.26,
+		"exchangeVolume": 375301000,
+		"generatedCoins": 1862.5,
+		"fees": 1.12765071
+	},
+	{
+		"date": "2018-03-01",
+		"txVolume": 408849272.986,
+		"txCount": 19482,
+		"marketcap": 20473600000,
+		"price": 1204.84,
+		"exchangeVolume": 482240000,
+		"generatedCoins": 1912.5,
+		"fees": 1.25300514
+	},
+	{
+		"date": "2018-03-02",
+		"txVolume": 323647657.818,
+		"txCount": 18261,
+		"marketcap": 21837400000,
+		"price": 1284.95,
+		"exchangeVolume": 421498000,
+		"generatedCoins": 1787.5,
+		"fees": 1.31817248
+	},
+	{
+		"date": "2018-03-03",
+		"txVolume": 357387356.316,
+		"txCount": 17814,
+		"marketcap": 21664900000,
+		"price": 1274.67,
+		"exchangeVolume": 371664000,
+		"generatedCoins": 1725,
+		"fees": 1.24305882
+	},
+	{
+		"date": "2018-03-04",
+		"txVolume": 155988820.974,
+		"txCount": 15001,
+		"marketcap": 21551400000,
+		"price": 1267.86,
+		"exchangeVolume": 367584000,
+		"generatedCoins": 1762.5,
+		"fees": 1.02411811
+	},
+	{
+		"date": "2018-03-05",
+		"txVolume": 530088677.577,
+		"txCount": 38489,
+		"marketcap": 21880600000,
+		"price": 1287.1,
+		"exchangeVolume": 350078000,
+		"generatedCoins": 1775,
+		"fees": 1.70834409
+	},
+	{
+		"date": "2018-03-06",
+		"txVolume": 277861229.798,
+		"txCount": 18850,
+		"marketcap": 21493500000,
+		"price": 1264.19,
+		"exchangeVolume": 401782000,
+		"generatedCoins": 1825,
+		"fees": 1.32567367
+	},
+	{
+		"date": "2018-03-07",
+		"txVolume": 231036710.275,
+		"txCount": 17901,
+		"marketcap": 20503500000,
+		"price": 1205.84,
+		"exchangeVolume": 455225000,
+		"generatedCoins": 1825,
+		"fees": 1.84017905
+	},
+	{
+		"date": "2018-03-08",
+		"txVolume": 264924383.619,
+		"txCount": 18593,
+		"marketcap": 18614800000,
+		"price": 1094.64,
+		"exchangeVolume": 446519000,
+		"generatedCoins": 1837.5,
+		"fees": 1.49898894999
+	},
+	{
+		"date": "2018-03-09",
+		"txVolume": 260880801.148,
+		"txCount": 18891,
+		"marketcap": 17597200000,
+		"price": 1034.69,
+		"exchangeVolume": 510887000,
+		"generatedCoins": 1762.5,
+		"fees": 1.14652492
+	},
+	{
+		"date": "2018-03-10",
+		"txVolume": 159591854.934,
+		"txCount": 14639,
+		"marketcap": 18219100000,
+		"price": 1071.15,
+		"exchangeVolume": 370367000,
+		"generatedCoins": 1887.5,
+		"fees": 1.36846792
+	},
+	{
+		"date": "2018-03-11",
+		"txVolume": 180051348.397,
+		"txCount": 13530,
+		"marketcap": 17054300000,
+		"price": 1002.55,
+		"exchangeVolume": 514167000,
+		"generatedCoins": 1800,
+		"fees": 0.854473380015
+	},
+	{
+		"date": "2018-03-12",
+		"txVolume": 202031598.888,
+		"txCount": 15893,
+		"marketcap": 19461500000,
+		"price": 1143.94,
+		"exchangeVolume": 425558000,
+		"generatedCoins": 1775,
+		"fees": 1.20808355999
+	},
+	{
+		"date": "2018-03-13",
+		"txVolume": 268545461.994,
+		"txCount": 16918,
+		"marketcap": 17883400000,
+		"price": 1051.07,
+		"exchangeVolume": 458028000,
+		"generatedCoins": 1812.5,
+		"fees": 1.43420417
+	},
+	{
+		"date": "2018-03-14",
+		"txVolume": 239094651.114,
+		"txCount": 19661,
+		"marketcap": 18233000000,
+		"price": 1071.5,
+		"exchangeVolume": 406616000,
+		"generatedCoins": 1725,
+		"fees": 1.27392944002
+	},
+	{
+		"date": "2018-03-15",
+		"txVolume": 186933288.617,
+		"txCount": 17474,
+		"marketcap": 16163200000,
+		"price": 949.77,
+		"exchangeVolume": 374741000,
+		"generatedCoins": 1800,
+		"fees": 1.72811614
+	},
+	{
+		"date": "2018-03-16",
+		"txVolume": 231225079.712,
+		"txCount": 18341,
+		"marketcap": 16059900000,
+		"price": 943.6,
+		"exchangeVolume": 472033000,
+		"generatedCoins": 1812.5,
+		"fees": 1.19225270999
+	},
+	{
+		"date": "2018-03-17",
+		"txVolume": 178513420.423,
+		"txCount": 16278,
+		"marketcap": 16591000000,
+		"price": 974.7,
+		"exchangeVolume": 411316000,
+		"generatedCoins": 1887.5,
+		"fees": 0.989089749998
+	},
+	{
+		"date": "2018-03-18",
+		"txVolume": 116562571.889,
+		"txCount": 14658,
+		"marketcap": 16143000000,
+		"price": 948.28,
+		"exchangeVolume": 435070000,
+		"generatedCoins": 1812.5,
+		"fees": 1.96758974
+	},
+	{
+		"date": "2018-03-19",
+		"txVolume": 253983685.312,
+		"txCount": 15976,
+		"marketcap": 16048000000,
+		"price": 942.6,
+		"exchangeVolume": 425419000,
+		"generatedCoins": 1850,
+		"fees": 2.28122108
+	},
+	{
+		"date": "2018-03-20",
+		"txVolume": 393356212.027,
+		"txCount": 19091,
+		"marketcap": 16996000000,
+		"price": 998.17,
+		"exchangeVolume": 503262000,
+		"generatedCoins": 1725,
+		"fees": 1.21683475
+	},
+	{
+		"date": "2018-03-21",
+		"txVolume": 432151040.585,
+		"txCount": 18557,
+		"marketcap": 18153200000,
+		"price": 1066.03,
+		"exchangeVolume": 389291000,
+		"generatedCoins": 1737.5,
+		"fees": 2.87886565
+	},
+	{
+		"date": "2018-03-22",
+		"txVolume": 349569847.149,
+		"txCount": 17059,
+		"marketcap": 17597100000,
+		"price": 1033.26,
+		"exchangeVolume": 344283000,
+		"generatedCoins": 1750,
+		"fees": 1.70544520999
+	},
+	{
+		"date": "2018-03-23",
+		"txVolume": 189734927.575,
+		"txCount": 14926,
+		"marketcap": 17233800000,
+		"price": 1011.83,
+		"exchangeVolume": 303600000,
+		"generatedCoins": 1887.5,
+		"fees": 1.05906788
+	},
+	{
+		"date": "2018-03-24",
+		"txVolume": 105750942.947,
+		"txCount": 14397,
+		"marketcap": 17513300000,
+		"price": 1028.12,
+		"exchangeVolume": 264080000,
+		"generatedCoins": 1762.5,
+		"fees": 0.781436660001
+	},
+	{
+		"date": "2018-03-25",
+		"txVolume": 116070722.123,
+		"txCount": 13298,
+		"marketcap": 16586300000,
+		"price": 973.6,
+		"exchangeVolume": 237008000,
+		"generatedCoins": 1775,
+		"fees": 0.702051309997
+	},
+	{
+		"date": "2018-03-26",
+		"txVolume": 223882774.727,
+		"txCount": 15207,
+		"marketcap": 16490800000,
+		"price": 967.89,
+		"exchangeVolume": 347366000,
+		"generatedCoins": 1800,
+		"fees": 1.57398763001
+	},
+	{
+		"date": "2018-03-27",
+		"txVolume": 289365706.706,
+		"txCount": 18438,
+		"marketcap": 15625100000,
+		"price": 916.99,
+		"exchangeVolume": 339011000,
+		"generatedCoins": 1937.5,
+		"fees": 1.02306664001
+	},
+	{
+		"date": "2018-03-28",
+		"txVolume": 476710445.38,
+		"txCount": 78109,
+		"marketcap": 14934500000,
+		"price": 876.36,
+		"exchangeVolume": 337268000,
+		"generatedCoins": 1550,
+		"fees": 1.04675103999
+	},
+	{
+		"date": "2018-03-29",
+		"txVolume": 474149999.674,
+		"txCount": 21654,
+		"marketcap": 14684500000,
+		"price": 861.61,
+		"exchangeVolume": 452656000,
+		"generatedCoins": 1812.5,
+		"fees": 1.15085214999
+	},
+	{
+		"date": "2018-03-30",
+		"txVolume": 281066315.066,
+		"txCount": 21062,
+		"marketcap": 12142900000,
+		"price": 712.4,
+		"exchangeVolume": 416567000,
+		"generatedCoins": 1725,
+		"fees": 1.05358472
+	},
+	{
+		"date": "2018-03-31",
+		"txVolume": 724304032.089,
+		"txCount": 16902,
+		"marketcap": 11892100000,
+		"price": 697.62,
+		"exchangeVolume": 306972000,
+		"generatedCoins": 1850,
+		"fees": 0.810355729993
+	},
+	{
+		"date": "2018-04-01",
+		"txVolume": 1039816351.95,
+		"txCount": 13651,
+		"marketcap": 11729600000,
+		"price": 688.01,
+		"exchangeVolume": 318440000,
+		"generatedCoins": 1912.5,
+		"fees": 0.723223939993
+	},
+	{
+		"date": "2018-04-02",
+		"txVolume": 315281763.345,
+		"txCount": 16925,
+		"marketcap": 10988300000,
+		"price": 644.46,
+		"exchangeVolume": 282036000,
+		"generatedCoins": 1637.5,
+		"fees": 0.894170640008
+	},
+	{
+		"date": "2018-04-03",
+		"txVolume": 771626157.771,
+		"txCount": 22117,
+		"marketcap": 11325100000,
+		"price": 664.15,
+		"exchangeVolume": 303771000,
+		"generatedCoins": 1875,
+		"fees": 1.09134152
+	},
+	{
+		"date": "2018-04-04",
+		"txVolume": 894857410.87,
+		"txCount": 20109,
+		"marketcap": 12116300000,
+		"price": 710.47,
+		"exchangeVolume": 282960000,
+		"generatedCoins": 1837.5,
+		"fees": 0.961377869995
+	},
+	{
+		"date": "2018-04-05",
+		"txVolume": 243901102.665,
+		"txCount": 16564,
+		"marketcap": 11062800000,
+		"price": 648.63,
+		"exchangeVolume": 243989000,
+		"generatedCoins": 1637.5,
+		"fees": 0.725327560002
+	},
+	{
+		"date": "2018-04-06",
+		"txVolume": 199629670.832,
+		"txCount": 16843,
+		"marketcap": 10948500000,
+		"price": 641.86,
+		"exchangeVolume": 225186000,
+		"generatedCoins": 1825,
+		"fees": 0.819783770006
+	},
+	{
+		"date": "2018-04-07",
+		"txVolume": 153391724.749,
+		"txCount": 12991,
+		"marketcap": 10426600000,
+		"price": 611.2,
+		"exchangeVolume": 231143000,
+		"generatedCoins": 1900,
+		"fees": 2.50550357
+	},
+	{
+		"date": "2018-04-08",
+		"txVolume": 152746796.684,
+		"txCount": 11220,
+		"marketcap": 10934300000,
+		"price": 640.89,
+		"exchangeVolume": 198906000,
+		"generatedCoins": 1750,
+		"fees": 0.447111489996
+	},
+	{
+		"date": "2018-04-09",
+		"txVolume": 131820318.547,
+		"txCount": 11934,
+		"marketcap": 11194800000,
+		"price": 656.09,
+		"exchangeVolume": 254947000,
+		"generatedCoins": 1812.5,
+		"fees": 0.793604649999
+	},
+	{
+		"date": "2018-04-10",
+		"txVolume": 149418676.941,
+		"txCount": 11522,
+		"marketcap": 10882100000,
+		"price": 637.7,
+		"exchangeVolume": 225054000,
+		"generatedCoins": 1812.5,
+		"fees": 0.988725639995
+	},
+	{
+		"date": "2018-04-11",
+		"txVolume": 178220477.719,
+		"txCount": 11968,
+		"marketcap": 11074400000,
+		"price": 648.9,
+		"exchangeVolume": 252158000,
+		"generatedCoins": 1875,
+		"fees": 0.793135980001
+	},
+	{
+		"date": "2018-04-12",
+		"txVolume": 192144105.816,
+		"txCount": 14686,
+		"marketcap": 11374200000,
+		"price": 666.39,
+		"exchangeVolume": 417017000,
+		"generatedCoins": 1512.5,
+		"fees": 0.884214780003
+	},
+	{
+		"date": "2018-04-13",
+		"txVolume": 268266921.476,
+		"txCount": 15111,
+		"marketcap": 12559600000,
+		"price": 735.78,
+		"exchangeVolume": 384095000,
+		"generatedCoins": 1912.5,
+		"fees": 0.874355589998
+	},
+	{
+		"date": "2018-04-14",
+		"txVolume": 90778779.9114,
+		"txCount": 11368,
+		"marketcap": 12611200000,
+		"price": 738.72,
+		"exchangeVolume": 267415000,
+		"generatedCoins": 1900,
+		"fees": 0.589565570006
+	},
+	{
+		"date": "2018-04-15",
+		"txVolume": 96625111.528,
+		"txCount": 14279,
+		"marketcap": 12667100000,
+		"price": 741.91,
+		"exchangeVolume": 327336000,
+		"generatedCoins": 1800,
+		"fees": 0.684176000001
+	},
+	{
+		"date": "2018-04-16",
+		"txVolume": 293915646.962,
+		"txCount": 17182,
+		"marketcap": 13338000000,
+		"price": 781.12,
+		"exchangeVolume": 382080000,
+		"generatedCoins": 1775,
+		"fees": 0.742305180003
+	},
+	{
+		"date": "2018-04-17",
+		"txVolume": 184100316.643,
+		"txCount": 16306,
+		"marketcap": 13093100000,
+		"price": 766.7,
+		"exchangeVolume": 331701000,
+		"generatedCoins": 1787.5,
+		"fees": 0.837339809997
+	},
+	{
+		"date": "2018-04-18",
+		"txVolume": 269886562.126,
+		"txCount": 18182,
+		"marketcap": 12950200000,
+		"price": 758.25,
+		"exchangeVolume": 634653000,
+		"generatedCoins": 1925,
+		"fees": 0.86848972
+	},
+	{
+		"date": "2018-04-19",
+		"txVolume": 521460637.497,
+		"txCount": 19306,
+		"marketcap": 15213400000,
+		"price": 890.66,
+		"exchangeVolume": 658165000,
+		"generatedCoins": 1912.5,
+		"fees": 0.979183639998
+	},
+	{
+		"date": "2018-04-20",
+		"txVolume": 702077844.111,
+		"txCount": 21846,
+		"marketcap": 16572900000,
+		"price": 970.15,
+		"exchangeVolume": 1006640000,
+		"generatedCoins": 1850,
+		"fees": 1.12529917001
+	},
+	{
+		"date": "2018-04-21",
+		"txVolume": 288361526.981,
+		"txCount": 18421,
+		"marketcap": 19252100000,
+		"price": 1126.86,
+		"exchangeVolume": 1093510000,
+		"generatedCoins": 1937.5,
+		"fees": 0.909159449997
+	},
+	{
+		"date": "2018-04-22",
+		"txVolume": 283459086.067,
+		"txCount": 19243,
+		"marketcap": 19606600000,
+		"price": 1147.48,
+		"exchangeVolume": 968409000,
+		"generatedCoins": 1825,
+		"fees": 0.821639889999
+	},
+	{
+		"date": "2018-04-23",
+		"txVolume": 1152518553.5,
+		"txCount": 27823,
+		"marketcap": 20415700000,
+		"price": 1194.71,
+		"exchangeVolume": 1934290000,
+		"generatedCoins": 1812.5,
+		"fees": 1.60122914
+	},
+	{
+		"date": "2018-04-24",
+		"txVolume": 1310306894.25,
+		"txCount": 28861,
+		"marketcap": 24507700000,
+		"price": 1434.01,
+		"exchangeVolume": 2053920000,
+		"generatedCoins": 1637.5,
+		"fees": 1.45172973
+	},
+	{
+		"date": "2018-04-25",
+		"txVolume": 634207155.903,
+		"txCount": 26093,
+		"marketcap": 24385300000,
+		"price": 1426.71,
+		"exchangeVolume": 1830970000,
+		"generatedCoins": 1912.5,
+		"fees": 1.20342737001
+	},
+	{
+		"date": "2018-04-26",
+		"txVolume": 500263763.514,
+		"txCount": 21587,
+		"marketcap": 22043200000,
+		"price": 1289.54,
+		"exchangeVolume": 1281930000,
+		"generatedCoins": 1800,
+		"fees": 1.11500082
+	},
+	{
+		"date": "2018-04-27",
+		"txVolume": 530620544.701,
+		"txCount": 19505,
+		"marketcap": 24311000000,
+		"price": 1422.06,
+		"exchangeVolume": 905273000,
+		"generatedCoins": 1850,
+		"fees": 1.06301293
+	},
+	{
+		"date": "2018-04-28",
+		"txVolume": 352159819.059,
+		"txCount": 17959,
+		"marketcap": 22875800000,
+		"price": 1337.96,
+		"exchangeVolume": 808802000,
+		"generatedCoins": 1862.5,
+		"fees": 0.721139410006
+	},
+	{
+		"date": "2018-04-29",
+		"txVolume": 459970446.217,
+		"txCount": 18793,
+		"marketcap": 23836300000,
+		"price": 1393.99,
+		"exchangeVolume": 1049450000,
+		"generatedCoins": 1737.5,
+		"fees": 0.916797070006
+	},
+	{
+		"date": "2018-04-30",
+		"txVolume": 588699995.809,
+		"txCount": 21532,
+		"marketcap": 24642000000,
+		"price": 1440.96,
+		"exchangeVolume": 753114000,
+		"generatedCoins": 1837.5,
+		"fees": 0.944017880002
+	},
+	{
+		"date": "2018-05-01",
+		"txVolume": 484545821.89,
+		"txCount": 18868,
+		"marketcap": 23065700000,
+		"price": 1348.64,
+		"exchangeVolume": 774633000,
+		"generatedCoins": 1812.5,
+		"fees": 0.924133059987
+	},
+	{
+		"date": "2018-05-02",
+		"txVolume": 508577079.574,
+		"txCount": 22533,
+		"marketcap": 23151900000,
+		"price": 1353.54,
+		"exchangeVolume": 1165140000,
+		"generatedCoins": 1825,
+		"fees": 1.02843011
+	},
+	{
+		"date": "2018-05-03",
+		"txVolume": 923652852.903,
+		"txCount": 25575,
+		"marketcap": 24967800000,
+		"price": 1459.55,
+		"exchangeVolume": 1282660000,
+		"generatedCoins": 1662.5,
+		"fees": 1.15262236
+	},
+	{
+		"date": "2018-05-04",
+		"txVolume": 536844385.223,
+		"txCount": 22938,
+		"marketcap": 25686300000,
+		"price": 1501.4,
+		"exchangeVolume": 960185000,
+		"generatedCoins": 1812.5,
+		"fees": 0.870246720001
+	},
+	{
+		"date": "2018-05-05",
+		"txVolume": 517513072.441,
+		"txCount": 23115,
+		"marketcap": 25951400000,
+		"price": 1516.74,
+		"exchangeVolume": 1664400000,
+		"generatedCoins": 1937.5,
+		"fees": 1.07417652002
+	},
+	{
+		"date": "2018-05-06",
+		"txVolume": 627333921.009,
+		"txCount": 20260,
+		"marketcap": 30097000000,
+		"price": 1758.83,
+		"exchangeVolume": 1946960000,
+		"generatedCoins": 1725,
+		"fees": 1.08991072
+	},
+	{
+		"date": "2018-05-07",
+		"txVolume": 835229736.647,
+		"txCount": 19494,
+		"marketcap": 30234100000,
+		"price": 1766.66,
+		"exchangeVolume": 1407630000,
+		"generatedCoins": 1837.5,
+		"fees": 1.20876175
+	},
+	{
+		"date": "2018-05-08",
+		"txVolume": 859074604.864,
+		"txCount": 19668,
+		"marketcap": 28635500000,
+		"price": 1673.07,
+		"exchangeVolume": 1060740000,
+		"generatedCoins": 1725,
+		"fees": 0.985764829997
+	},
+	{
+		"date": "2018-05-09",
+		"txVolume": 504643110.718,
+		"txCount": 18394,
+		"marketcap": 27522400000,
+		"price": 1607.87,
+		"exchangeVolume": 1273220000,
+		"generatedCoins": 1837.5,
+		"fees": 1.04895437
+	},
+	{
+		"date": "2018-05-10",
+		"txVolume": 618896639.227,
+		"txCount": 20798,
+		"marketcap": 28180600000,
+		"price": 1646.15,
+		"exchangeVolume": 1070040000,
+		"generatedCoins": 1750,
+		"fees": 1.60470528
+	},
+	{
+		"date": "2018-05-11",
+		"txVolume": 658848940.468,
+		"txCount": 19102,
+		"marketcap": 26151900000,
+		"price": 1527.49,
+		"exchangeVolume": 1513260000,
+		"generatedCoins": 1812.5,
+		"fees": 2.41190216
+	},
+	{
+		"date": "2018-05-12",
+		"txVolume": 283420934.124,
+		"txCount": 16556,
+		"marketcap": 23561700000,
+		"price": 1376.05,
+		"exchangeVolume": 1461450000,
+		"generatedCoins": 1800,
+		"fees": 2.11074231
+	},
+	{
+		"date": "2018-05-13",
+		"txVolume": 339914889.231,
+		"txCount": 15385,
+		"marketcap": 25254500000,
+		"price": 1474.76,
+		"exchangeVolume": 921628000,
+		"generatedCoins": 1775,
+		"fees": 1.91394087
+	},
+	{
+		"date": "2018-05-14",
+		"txVolume": 739157470.163,
+		"txCount": 19064,
+		"marketcap": 25506600000,
+		"price": 1489.33,
+		"exchangeVolume": 1158710000,
+		"generatedCoins": 1812.5,
+		"fees": 2.32913806
+	},
+	{
+		"date": "2018-05-15",
+		"txVolume": 812406125.031,
+		"txCount": 20332,
+		"marketcap": 24497900000,
+		"price": 1430.28,
+		"exchangeVolume": 939358000,
+		"generatedCoins": 1750,
+		"fees": 2.07659200002
+	},
+	{
+		"date": "2018-05-16",
+		"txVolume": 407451020.092,
+		"txCount": 20461,
+		"marketcap": 22986200000,
+		"price": 1341.89,
+		"exchangeVolume": 913178000,
+		"generatedCoins": 1850,
+		"fees": 1.97333124001
+	},
+	{
+		"date": "2018-05-17",
+		"txVolume": 349949312.564,
+		"txCount": 16498,
+		"marketcap": 22103600000,
+		"price": 1290.22,
+		"exchangeVolume": 804139000,
+		"generatedCoins": 1612.5,
+		"fees": 1.39850233
+	},
+	{
+		"date": "2018-05-18",
+		"txVolume": 525364660.355,
+		"txCount": 15221,
+		"marketcap": 20597700000,
+		"price": 1202.2,
+		"exchangeVolume": 876975000,
+		"generatedCoins": 1862.5,
+		"fees": 1.62618959999
+	},
+	{
+		"date": "2018-05-19",
+		"txVolume": 273058793.039,
+		"txCount": 12495,
+		"marketcap": 20675400000,
+		"price": 1206.61,
+		"exchangeVolume": 595862000,
+		"generatedCoins": 1812.5,
+		"fees": 1.18918032
+	},
+	{
+		"date": "2018-05-20",
+		"txVolume": 350963802.048,
+		"txCount": 14395,
+		"marketcap": 20276500000,
+		"price": 1183.2,
+		"exchangeVolume": 805599000,
+		"generatedCoins": 1850,
+		"fees": 1.40056365
+	},
+	{
+		"date": "2018-05-21",
+		"txVolume": 343678483.606,
+		"txCount": 15508,
+		"marketcap": 22212300000,
+		"price": 1296.03,
+		"exchangeVolume": 622773000,
+		"generatedCoins": 1900,
+		"fees": 1.54866331
+	},
+	{
+		"date": "2018-05-22",
+		"txVolume": 341772277.477,
+		"txCount": 15170,
+		"marketcap": 21146400000,
+		"price": 1233.7,
+		"exchangeVolume": 634202000,
+		"generatedCoins": 1575,
+		"fees": 1.47924085
+	},
+	{
+		"date": "2018-05-23",
+		"txVolume": 820581282.44,
+		"txCount": 16111,
+		"marketcap": 19580700000,
+		"price": 1142.25,
+		"exchangeVolume": 858106000,
+		"generatedCoins": 1812.5,
+		"fees": 1.61525032999
+	},
+	{
+		"date": "2018-05-24",
+		"txVolume": 311615174.253,
+		"txCount": 15130,
+		"marketcap": 17230000000,
+		"price": 1005.01,
+		"exchangeVolume": 785384000,
+		"generatedCoins": 1862.5,
+		"fees": 1.54681536
+	},
+	{
+		"date": "2018-05-25",
+		"txVolume": 271174410.45,
+		"txCount": 15209,
+		"marketcap": 18393100000,
+		"price": 1072.74,
+		"exchangeVolume": 620340000,
+		"generatedCoins": 1775,
+		"fees": 1.41751321
+	},
+	{
+		"date": "2018-05-26",
+		"txVolume": 182560455.809,
+		"txCount": 11872,
+		"marketcap": 17416700000,
+		"price": 1015.68,
+		"exchangeVolume": 486186000,
+		"generatedCoins": 1837.5,
+		"fees": 1.24986646
+	}
+]

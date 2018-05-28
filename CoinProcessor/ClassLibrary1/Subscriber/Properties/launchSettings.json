@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Subscriber": {
+      "commandName": "Project",
+      "commandLineArgs": "#"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "Publisher\Publisher.csproj", "{524824A8-C736-4797-9EEE-2B488F7674AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber", "Subscriber\Subscriber.csproj", "{1A690613-3717-42B0-B189-3D5329321851}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{599272B1-CF26-42E2-A6C2-7A7DCD243B2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4445AABB-5907-438F-818D-A53B270D4E11}"
+	ProjectSection(SolutionItems) = preProject
+		Data\bch.csv = Data\bch.csv
+		Data\btc.csv = Data\btc.csv
+		Data\dash.csv = Data\dash.csv
+		Data\dcr.csv = Data\dcr.csv
+		Data\doge.csv = Data\doge.csv
+		Data\etc.csv = Data\etc.csv
+		Data\eth.csv = Data\eth.csv
+		Data\ltc.csv = Data\ltc.csv
+		Data\pivx.csv = Data\pivx.csv
+		Data\vtc.csv = Data\vtc.csv
+		Data\xem.csv = Data\xem.csv
+		Data\xmr.csv = Data\xmr.csv
+		Data\zec.csv = Data\zec.csv
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublisherApi", "PublisherApi\PublisherApi.csproj", "{F4628798-35D3-407F-B72A-293CB90856F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClient", "Client\HttpClient.csproj", "{73D937EC-2691-4002-9C70-F15D71BE2101}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleRabbitMqPublisher", "SimpleRabbitMqClient\SimpleRabbitMqPublisher.csproj", "{9F5ACA02-63F5-4BAE-AF5B-7DCE4D1690B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTopicPublisher", "SimpleTopicPublisher\SimpleTopicPublisher.csproj", "{D7350C19-ACE5-4DCF-A38F-73255B149A62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Json", "Json", "{E200CD92-B7D5-41D8-B471-7284F5100A78}"
+	ProjectSection(SolutionItems) = preProject
+		bch.json = bch.json
+		btc.json = btc.json
+		dash.json = dash.json
+		eth.json = eth.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{524824A8-C736-4797-9EEE-2B488F7674AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524824A8-C736-4797-9EEE-2B488F7674AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524824A8-C736-4797-9EEE-2B488F7674AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524824A8-C736-4797-9EEE-2B488F7674AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A690613-3717-42B0-B189-3D5329321851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A690613-3717-42B0-B189-3D5329321851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A690613-3717-42B0-B189-3D5329321851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A690613-3717-42B0-B189-3D5329321851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4628798-35D3-407F-B72A-293CB90856F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4628798-35D3-407F-B72A-293CB90856F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4628798-35D3-407F-B72A-293CB90856F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4628798-35D3-407F-B72A-293CB90856F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D937EC-2691-4002-9C70-F15D71BE2101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D937EC-2691-4002-9C70-F15D71BE2101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D937EC-2691-4002-9C70-F15D71BE2101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D937EC-2691-4002-9C70-F15D71BE2101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5ACA02-63F5-4BAE-AF5B-7DCE4D1690B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5ACA02-63F5-4BAE-AF5B-7DCE4D1690B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5ACA02-63F5-4BAE-AF5B-7DCE4D1690B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5ACA02-63F5-4BAE-AF5B-7DCE4D1690B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7350C19-ACE5-4DCF-A38F-73255B149A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7350C19-ACE5-4DCF-A38F-73255B149A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7350C19-ACE5-4DCF-A38F-73255B149A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7350C19-ACE5-4DCF-A38F-73255B149A62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4445AABB-5907-438F-818D-A53B270D4E11} = {599272B1-CF26-42E2-A6C2-7A7DCD243B2B}
+		{E200CD92-B7D5-41D8-B471-7284F5100A78} = {599272B1-CF26-42E2-A6C2-7A7DCD243B2B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDC5211E-D1B6-44F5-90FF-5C5559E49BF9}
+	EndGlobalSection
+EndGlobal

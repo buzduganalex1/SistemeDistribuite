@@ -1,0 +1,13 @@
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\libhostpolicy.so
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\libhostfxr.so
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication.deps.json
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication.runtimeconfig.json
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication.runtimeconfig.dev.json
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication.dll
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication.pdb
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\obj\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication.csproj.CoreCompileInputs.cache
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\obj\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication.AssemblyInfoInputs.cache
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\obj\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication.AssemblyInfo.cs
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\obj\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication.dll
+C:\users\alexandru\source\repos\UbuntuConsoleApplication\UbuntuConsoleApplication\obj\Debug\netcoreapp2.0\ubuntu.16.04-x64\UbuntuConsoleApplication.pdb

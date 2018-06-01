@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "CoinProcessor.Subscriber": {
+      "commandName": "Project"
+    }
+  }
+}

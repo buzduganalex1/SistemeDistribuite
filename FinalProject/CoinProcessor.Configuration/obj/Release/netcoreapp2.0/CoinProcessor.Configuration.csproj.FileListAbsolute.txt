@@ -1,8 +1,0 @@
-C:\Users\Alexandru\source\repos\UbuntuConsoleApplication\CoinProcessor.Configuration\bin\Release\netcoreapp2.0\CoinProcessor.Configuration.deps.json
-C:\Users\Alexandru\source\repos\UbuntuConsoleApplication\CoinProcessor.Configuration\bin\Release\netcoreapp2.0\CoinProcessor.Configuration.dll
-C:\Users\Alexandru\source\repos\UbuntuConsoleApplication\CoinProcessor.Configuration\bin\Release\netcoreapp2.0\CoinProcessor.Configuration.pdb
-C:\Users\Alexandru\source\repos\UbuntuConsoleApplication\CoinProcessor.Configuration\obj\Release\netcoreapp2.0\CoinProcessor.Configuration.csproj.CoreCompileInputs.cache
-C:\Users\Alexandru\source\repos\UbuntuConsoleApplication\CoinProcessor.Configuration\obj\Release\netcoreapp2.0\CoinProcessor.Configuration.AssemblyInfoInputs.cache
-C:\Users\Alexandru\source\repos\UbuntuConsoleApplication\CoinProcessor.Configuration\obj\Release\netcoreapp2.0\CoinProcessor.Configuration.AssemblyInfo.cs
-C:\Users\Alexandru\source\repos\UbuntuConsoleApplication\CoinProcessor.Configuration\obj\Release\netcoreapp2.0\CoinProcessor.Configuration.dll
-C:\Users\Alexandru\source\repos\UbuntuConsoleApplication\CoinProcessor.Configuration\obj\Release\netcoreapp2.0\CoinProcessor.Configuration.pdb

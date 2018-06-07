@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 using CoinProcessor.CommunicationProvider;
 using CoinProcessor.Configuration;
 
@@ -18,21 +17,44 @@ namespace CoinProcessor.Middleware.Broker
             communicationProvider = new CommunicationProvider.CommunicationProvider();
         }
 
-        public void Forward()
+        public void Initiate(BrokerConfiguration nextBrokerConfiguration = null, BrokerHandler handler = null)
         {
+            var nextBrokerConfigurationVar = nextBrokerConfiguration;
+
+            var brokerHandlerVar = handler;
+
             void Action(string message, string key, string[] bindings)
             {
-                var subConfig = new SubscriberConfiguration
+                if (nextBrokerConfigurationVar != null)
                 {
-                    ExchangeName = "brokerOutput",
-                    BindingKeys =  bindings
-                };
+                    nextBrokerConfigurationVar.BindingKeys = bindings;
 
-                communicationProvider.Publish(subConfig, message, key);
+                    handler.Key = key;
+                    
+                    var newKey = brokerHandlerVar.Handle(message);
+
+                    communicationProvider.Publish(nextBrokerConfiguration, message, newKey);
+
+                    Console.WriteLine($"Broker {nextBrokerConfigurationVar.Name} sent message with key {newKey}");
+                }
+                else
+                {
+                    var subConfig = new SubscriberConfiguration
+                    {
+                        ExchangeName = "brokerOutput",
+                        BindingKeys = bindings
+                    };
+
+                    communicationProvider.Publish(subConfig, message, key);
+                    
+                    Console.WriteLine($"Broker {subConfig.Name} sent message with key {key}");
+                }             
             }
 
-            communicationProvider.Intercept(config, Action);
+            Console.WriteLine($" Broker {config.Name} started. ");
 
+            communicationProvider.Intercept(config, Action);
+            
             ////var random = new Random();
 
             ////if (random.Next(10) % 2 == 0)

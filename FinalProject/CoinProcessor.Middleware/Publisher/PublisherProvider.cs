@@ -7,11 +7,7 @@ namespace CoinProcessor.Middleware.Publisher
     {
         public Publisher GetPublisher(ICommunicationConfiguration config)
         {
-            var publisher = new Publisher(config);
-
-            SystemManager.Publishers.Add(publisher);
-
-            return publisher;
+            return new Publisher(config);
         }
 
         public IEnumerable<Publisher> GetPublishers()

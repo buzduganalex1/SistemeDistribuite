@@ -16,7 +16,7 @@ namespace CoinProcessor.Middleware.Subscriber
             this.communicationProvider = new CommunicationProvider.CommunicationProvider();
         }
 
-        public void Subscribe()
+        public void StartSubscription()
         {
             this.communicationProvider.Subscribe(configuration);
         }

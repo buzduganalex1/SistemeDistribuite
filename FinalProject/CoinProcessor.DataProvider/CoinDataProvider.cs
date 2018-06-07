@@ -15,9 +15,11 @@ namespace CoinProcessor.DataProvider
 
             var relativePath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\..\\..\\"));
 
+            var localPath = "D:\\Projects\\GitHub\\SistemeDistribuite\\SistemeDistribuite\\FinalProject\\";
+
             foreach (var file in filesToProcess)
             {
-                var path = $@"{relativePath}\CoinProcessor.DataProvider\Data\{file}";
+                var path = $@"{localPath}\CoinProcessor.DataProvider\Data\{file}";
 
                 using (var r = new StreamReader(path))
                 {

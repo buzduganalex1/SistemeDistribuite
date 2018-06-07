@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using CoinProcessor.Configuration;
 using CoinProcessor.Middleware.Publisher;
@@ -9,16 +10,28 @@ namespace CoinProcessor.Publisher
     {
         public static void Main()
         {
+            var publishers = GetPublishers(1);
+
+            foreach (var publisher in publishers)
+            {
+                publisher.Start();
+            }
+            
+            Task.WaitAll(publishers.ToArray());
+        }
+
+        private static IList<Task> GetPublishers(int number)
+        {
             var tasks = new List<Task>();
 
-            for (int i = 0; i < 1; i++)
+            var publisherProvider = new PublisherProvider();
+
+            for (var i = 1; i <= number; i++)
             {
-                int taskId = i;
+                var taskId = i;
 
                 tasks.Add(new Task(() =>
                 {
-                    var publisherProvider = new PublisherProvider();
-
                     var config = new PublisherConfiguration
                     {
                         Name = $"Publisher-{taskId}",
@@ -31,12 +44,7 @@ namespace CoinProcessor.Publisher
                 }));
             }
 
-            foreach (var task in tasks)
-            {
-                task.Start();
-            }
-            
-            Task.WaitAll(tasks.ToArray());
+            return tasks;
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using CoinProcessor.Configuration;
+﻿using CoinProcessor.Configuration;
 
 namespace CoinProcessor.Middleware.Broker
 {
@@ -7,11 +6,7 @@ namespace CoinProcessor.Middleware.Broker
     {
         public Broker Get(ICommunicationConfiguration configuration)
         {
-            var broker = new Broker(configuration);
-
-            SystemManager.Brokers.Add(broker);
-
-            return broker;
+            return new Broker(configuration);
         }
     }
 }

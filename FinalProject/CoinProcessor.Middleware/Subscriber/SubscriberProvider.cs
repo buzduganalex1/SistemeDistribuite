@@ -6,11 +6,7 @@ namespace CoinProcessor.Middleware.Subscriber
     {
         public Subscriber Get(ICommunicationConfiguration configuration)
         {
-            var subscriber = new Subscriber(configuration);
-
-            SystemManager.Subscribers.Add(subscriber);
-
-            return subscriber;
+            return new Subscriber(configuration);
         }
     }
 }

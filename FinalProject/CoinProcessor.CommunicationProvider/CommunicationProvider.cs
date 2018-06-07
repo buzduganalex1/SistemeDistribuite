@@ -56,11 +56,10 @@ namespace CoinProcessor.CommunicationProvider
 
                         channel.BasicPublish(config.ExchangeName, key, null, body);
 
+                        Console.WriteLine($"{key} \n {message} \n");
+
                         ////Thread.Sleep(TimeSpan.FromSeconds(1).Milliseconds);
                     }
-
-
-                    Console.WriteLine($" [x]  sent message");
                 }
             }
         }
@@ -83,8 +82,6 @@ namespace CoinProcessor.CommunicationProvider
                     var body = System.Text.Encoding.UTF8.GetBytes(message);
 
                     channel.BasicPublish(config.ExchangeName, key, null, body);
-
-                    Console.WriteLine($" [x] sent message");
                 }
             }
         }
@@ -132,13 +129,13 @@ namespace CoinProcessor.CommunicationProvider
 
                             var sendingDateTime = token["sendingDateTime"].ToObject<DateTime>();
 
-                            var deserializedObject = token["Message"];
+                            ////var deserializedObject = token["Message"];
 
-                            Console.WriteLine($" {counter++}. {deserializedObject} at {sendingDateTime}");
+                            ////Console.WriteLine($" {counter++}. {deserializedObject} at {sendingDateTime}");
 
-                            totalTime += (nowTime - sendingDateTime).TotalMilliseconds;
+                            ////totalTime += (nowTime - sendingDateTime).TotalMilliseconds;
 
-                            Console.WriteLine(totalTime);
+                            Console.WriteLine($"{counter++}. {sendingDateTime} {routingKey} \n {message} \n");
                         }
                     };
 
@@ -162,34 +159,44 @@ namespace CoinProcessor.CommunicationProvider
                     channel.ExchangeDeclare(exchange: config.ExchangeName,
                         type: config.ExchangeType);
 
-                    var queueName = channel.QueueDeclare("test",
-                        durable: false,
-                        exclusive: false,
-                        autoDelete: false,
-                        arguments: null).QueueName;
+                    string queueName;
 
+                    if (config.ExchangeName == "brokerInput")
+                    {
+                        queueName = channel.QueueDeclare("inputQueue",
+                            durable: false,
+                            exclusive: false,
+                            autoDelete: false,
+                            arguments: null).QueueName;
+                    }
+                    else
+                    {
+                        queueName = channel.QueueDeclare(config.ExchangeName.ToUpper(),
+                            durable: false,
+                            exclusive: false,
+                            autoDelete: false,
+                            arguments: null).QueueName;
+                    }
+                    
                     foreach (var bindingKey in config.BindingKeys)
                     {
                         channel.QueueBind(queue: queueName,
                             exchange: config.ExchangeName,
                             routingKey: bindingKey);
                     }
-
-                    Console.WriteLine($" Broker {config.Name} started. ");
-
+                    
                     var consumer = new EventingBasicConsumer(channel);
 
                     var counter = 1;
 
                     consumer.Received += (model, ea) =>
                     {
+                        var exchange = ea.Exchange;
                         var body = ea.Body;
                         var message = Encoding.UTF8.GetString(body);
                         var routingKey = ea.RoutingKey;
 
                         forwardMessage(message, routingKey, config.BindingKeys);
-
-                        Console.WriteLine($" {counter++} '{message}'");
                     };
 
                     channel.BasicConsume(queue: queueName,

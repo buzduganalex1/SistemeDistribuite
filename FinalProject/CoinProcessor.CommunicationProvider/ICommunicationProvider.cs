@@ -6,8 +6,8 @@ namespace CoinProcessor.CommunicationProvider
 {
     public interface ICommunicationProvider
     {
-        void Publish(ICommunicationConfiguration config, List<object> dataList);
-
+        void Publish(ICommunicationConfiguration config, List<object> dataList, int numberOfMessages = 0);
+        
         void Publish(ICommunicationConfiguration config, string message, string key);
 
         void Subscribe(ICommunicationConfiguration config);

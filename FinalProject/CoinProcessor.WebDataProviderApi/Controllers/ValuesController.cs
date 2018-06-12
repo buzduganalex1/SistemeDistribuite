@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using CoinProcessor.DataProvider;
+using CoinProcessor.Configuration;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoinProcessor.WebDataProviderApi.Controllers
@@ -12,11 +11,11 @@ namespace CoinProcessor.WebDataProviderApi.Controllers
     {
         // GET api/values
         [HttpGet]
-        public IEnumerable<object> Get()
+        public IEnumerable<string> Get()
         {
-            var provider = new CoinDataProvider();
+            var endpojnts = Enum.GetNames(typeof(EnpointConfigurationEnum));
 
-            return provider.GetCoinData();
+            return endpojnts.ToList();
         }
 
         // GET api/values/5

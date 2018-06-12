@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using CoinProcessor.Configuration;
+﻿using CoinProcessor.Configuration;
 using CoinProcessor.Middleware.Subscriber;
 
 namespace CoinProcessor.Subscriber
@@ -10,13 +8,12 @@ namespace CoinProcessor.Subscriber
         public static void Main(string[] args)
         {
             var subscriberProvider = new SubscriberProvider();
-            var config = new SubscriberConfiguration()
+            var config = new SubscriberConfiguration
             {
-                ExchangeName = "brokerOutput",
+                ExchangeName = EnpointConfigurationEnum.BrokerOutput.ToString(),
                 BindingKeys = new[] { "*.*.*.dateKey" }
             };
-
-
+            
             subscriberProvider.Get(config).StartSubscription();
 
             ////if (args.Any())

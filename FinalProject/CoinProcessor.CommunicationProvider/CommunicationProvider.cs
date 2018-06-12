@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Threading;
 using CoinProcessor.Configuration;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -13,7 +12,7 @@ namespace CoinProcessor.CommunicationProvider
 {
     public class CommunicationProvider : ICommunicationProvider
     {
-        public void Publish(ICommunicationConfiguration config, List<object> dataList)
+        public void Publish(ICommunicationConfiguration config, List<object> dataList, int numberOfMessages)
         {
             var factory = new ConnectionFactory
             {
@@ -26,40 +25,84 @@ namespace CoinProcessor.CommunicationProvider
                 {
                     channel.ExchangeDeclare(config.ExchangeName, config.ExchangeType);
 
-                    foreach (var data in dataList)
+                    if (numberOfMessages > 0)
                     {
-                        var token = data as JToken;
-
-                        var key = new CoinModel().Key;
-
-                        var coin = token.ToObject<EtherModel>();
-
-                        if (coin.ActiveAdresses > 0)
+                        while (numberOfMessages > 0)
                         {
-                            key = coin.Key;
+                            var random = new Random();
+
+                            var data = dataList[random.Next(dataList.Count)];
+
+                            var token = data as JToken;
+
+                            var key = new CoinModel().Key;
+
+                            var coin = token.ToObject<EtherModel>();
+
+                            if (coin.ActiveAdresses > 0)
+                            {
+                                key = coin.Key;
+                            }
+                            else
+                            {
+                                var bitcoin = token.ToObject<BitcoinModel>();
+
+                                key = bitcoin.Key;
+                            }
+
+                            var objectToBeSerialized = new Wrapper<object>(coin)
+                            {
+                                sendingDateTime = DateTime.Now
+                            };
+
+                            var message = JsonConvert.SerializeObject(objectToBeSerialized);
+
+                            var body = Encoding.UTF8.GetBytes(message);
+
+                            channel.BasicPublish(config.ExchangeName, key, null, body);
+
+                            Console.WriteLine($"{key} \n {message} \n");
+
+                            numberOfMessages--;
                         }
-                        else
-                        {
-                            var bitcoin = token.ToObject<BitcoinModel>();
-
-                            key = bitcoin.Key;
-                        }
-
-                        var objectToBeSerialized = new Wrapper<object>(coin)
-                        {
-                            sendingDateTime = DateTime.Now
-                        };
-
-                        var message = JsonConvert.SerializeObject(objectToBeSerialized);
-
-                        var body = System.Text.Encoding.UTF8.GetBytes(message);
-
-                        channel.BasicPublish(config.ExchangeName, key, null, body);
-
-                        Console.WriteLine($"{key} \n {message} \n");
-
-                        ////Thread.Sleep(TimeSpan.FromSeconds(1).Milliseconds);
                     }
+                    else
+                    {
+                        foreach (var data in dataList)
+                        {
+                            var token = data as JToken;
+
+                            var key = new CoinModel().Key;
+
+                            var coin = token.ToObject<EtherModel>();
+
+                            if (coin.ActiveAdresses > 0)
+                            {
+                                key = coin.Key;
+                            }
+                            else
+                            {
+                                var bitcoin = token.ToObject<BitcoinModel>();
+
+                                key = bitcoin.Key;
+                            }
+
+                            var objectToBeSerialized = new Wrapper<object>(coin)
+                            {
+                                sendingDateTime = DateTime.Now
+                            };
+
+                            var message = JsonConvert.SerializeObject(objectToBeSerialized);
+
+                            var body = Encoding.UTF8.GetBytes(message);
+
+                            channel.BasicPublish(config.ExchangeName, key, null, body);
+
+                            Console.WriteLine($"{key} \n {message} \n");
+
+                            ////Thread.Sleep(TimeSpan.FromSeconds(1).Milliseconds);
+                        }
+                    }         
                 }
             }
         }
@@ -79,7 +122,7 @@ namespace CoinProcessor.CommunicationProvider
 
                     //send data with key
 
-                    var body = System.Text.Encoding.UTF8.GetBytes(message);
+                    var body = Encoding.UTF8.GetBytes(message);
 
                     channel.BasicPublish(config.ExchangeName, key, null, body);
                 }
@@ -88,7 +131,10 @@ namespace CoinProcessor.CommunicationProvider
 
         public void Subscribe(ICommunicationConfiguration config)
         {
+            var logger = new Logger.Logger();
+
             var factory = new ConnectionFactory { HostName = config.HostName };
+
             using (var connection = factory.CreateConnection())
             {
                 using (var channel = connection.CreateModel())
@@ -109,34 +155,33 @@ namespace CoinProcessor.CommunicationProvider
 
                     var consumer = new EventingBasicConsumer(channel);
 
-                    var counter = 1;
-                    
+                    var numberOfMessagesReceived = 1;
+
+                    double totalMilliseconds = 0;
+
                     consumer.Received += (model, ea) =>
                     {
-                        var nowTime = DateTime.Now;
+                        var receivedTime = DateTime.Now;
 
-                        double totalTime = 0;
+                        var body = ea.Body;
+                        var message = Encoding.UTF8.GetString(body);
+                        var routingKey = ea.RoutingKey;
 
-                        if (counter < 10000)
-                        {
-                            var body = ea.Body;
-                            var message = Encoding.UTF8.GetString(body);
-                            var routingKey = ea.RoutingKey;
+                        var deserializeObject = JsonConvert.DeserializeObject(message);
 
-                            var test = JsonConvert.DeserializeObject(message);
+                        var token = deserializeObject as JToken;
 
-                            JToken token = test as JToken;
+                        var sendingDateTime = token["sendingDateTime"].ToObject<DateTime>();
 
-                            var sendingDateTime = token["sendingDateTime"].ToObject<DateTime>();
+                        totalMilliseconds += (receivedTime - sendingDateTime).TotalMilliseconds;
 
-                            ////var deserializedObject = token["Message"];
+                        var totalAmountOfTime =
+                            TimeSpan.FromMilliseconds(totalMilliseconds / numberOfMessagesReceived).TotalSeconds;
 
-                            ////Console.WriteLine($" {counter++}. {deserializedObject} at {sendingDateTime}");
+                        logger.Log($"{numberOfMessagesReceived++}. SendingTime: {sendingDateTime} ReceivedAt: {receivedTime} \n TotalTime: {totalAmountOfTime}");
 
-                            ////totalTime += (nowTime - sendingDateTime).TotalMilliseconds;
-
-                            Console.WriteLine($"{counter++}. {sendingDateTime} {routingKey} \n {message} \n");
-                        }
+                        Console.WriteLine(
+                            $"{numberOfMessagesReceived++}. {sendingDateTime} {routingKey} \n {message} \n {totalAmountOfTime}");
                     };
 
                     channel.BasicConsume(queue: queueName,
@@ -161,7 +206,7 @@ namespace CoinProcessor.CommunicationProvider
 
                     string queueName;
 
-                    if (config.ExchangeName == "brokerInput")
+                    if (config.ExchangeName == EnpointConfigurationEnum.BrokerInput.ToString())
                     {
                         queueName = channel.QueueDeclare("inputQueue",
                             durable: false,

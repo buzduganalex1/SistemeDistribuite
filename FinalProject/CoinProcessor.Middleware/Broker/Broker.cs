@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using CoinProcessor.CommunicationProvider;
 using CoinProcessor.Configuration;
 
@@ -41,7 +42,7 @@ namespace CoinProcessor.Middleware.Broker
                 {
                     var subConfig = new SubscriberConfiguration
                     {
-                        ExchangeName = "brokerOutput",
+                        ExchangeName = EnpointConfigurationEnum.BrokerOutput.ToString(),
                         BindingKeys = bindings
                     };
 
@@ -55,14 +56,15 @@ namespace CoinProcessor.Middleware.Broker
 
             communicationProvider.Intercept(config, Action);
             
-            ////var random = new Random();
+            //Failing simulation
+            var random = new Random();
 
-            ////if (random.Next(10) % 2 == 0)
-            ////{
-            ////    Thread.Sleep(TimeSpan.FromSeconds(5).Milliseconds);
+            if (random.Next(10) % 2 == 0)
+            {
+                Thread.Sleep(TimeSpan.FromSeconds(5).Milliseconds);
 
-            ////    throw new Exception();
-            ////}
+                throw new Exception();
+            }
         }
     }
 }

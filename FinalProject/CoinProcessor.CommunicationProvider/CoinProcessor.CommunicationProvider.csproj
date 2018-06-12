@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
     <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
@@ -15,6 +16,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CoinProcessor.Configuration\CoinProcessor.Configuration.csproj" />
+    <ProjectReference Include="..\CoinProcessor.DataProvider\CoinProcessor.DataProvider.csproj" />
+    <ProjectReference Include="..\CoinProcessor.Logger\CoinProcessor.Logger.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LoggerLibrary">
+      <HintPath>Logger\LoggerLibrary.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

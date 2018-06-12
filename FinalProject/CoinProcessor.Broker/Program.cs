@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using CoinProcessor.Configuration;
 using CoinProcessor.Middleware.Broker;
@@ -14,13 +12,13 @@ namespace CoinProcessor.Broker
             var tasks = new List<Task>();
 
             var brokerProvider = new BrokerProvider();
-
+            
             var initialBrokerConfig = new BrokerConfiguration
             {
-                ExchangeName = "brokerInput",
+                ExchangeName = EnpointConfigurationEnum.BrokerInput.ToString(),
                 Name = "InputBroker"
             };
-
+            
             var amountBiggerThan10BrokerConfig = new BrokerConfiguration()
             {
                 ExchangeName = "AmountBiggerThan10",
@@ -33,32 +31,26 @@ namespace CoinProcessor.Broker
                 Name = "yearConfigBroker"
             };
 
-            var task1 = new Task(() =>
+            tasks.Add(new Task(() =>
             {
                 var initialBroker = brokerProvider.Get(initialBrokerConfig);
-                
-                initialBroker.Initiate(amountBiggerThan10BrokerConfig, new PriceBiggetThan10BrokerHandler());
-            });
 
-            var task2 = new Task(() =>
+                initialBroker.Initiate(amountBiggerThan10BrokerConfig, new PriceBiggetThan10BrokerHandler());
+            }));
+
+            tasks.Add(new Task(() =>
             {
                 var amountBiggerThan10Broker = brokerProvider.Get(amountBiggerThan10BrokerConfig);
 
                 amountBiggerThan10Broker.Initiate(yearConfig, new YearBiggerThan2017BrokerHandler());
-            });
+            }));
 
-            var task3 = new Task(() =>
+            tasks.Add(new Task(() =>
             {
                 var amountBiggerThan10Broker = brokerProvider.Get(yearConfig);
 
                 amountBiggerThan10Broker.Initiate();
-            });
-
-            tasks.Add(task1);
-
-            tasks.Add(task2);
-
-            tasks.Add(task3);
+            }));
 
             foreach (var task in tasks)
             {
@@ -66,7 +58,6 @@ namespace CoinProcessor.Broker
             }
 
             Task.WaitAll(tasks.ToArray());
-            
         }
 
         ////private static IList<Task> GetBrokerTasks(int number)

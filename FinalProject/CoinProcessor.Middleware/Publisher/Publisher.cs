@@ -22,11 +22,11 @@ namespace CoinProcessor.Middleware.Publisher
             this.config = config;
         }
 
-        public void Publish()
+        public void Publish(int numberOfMessages = 0)
         {
             var data = dataProvider.GetCoinData();
 
-            communicationProvider.Publish(this.config, data.ToList());
+            communicationProvider.Publish(this.config, data.ToList(), numberOfMessages);
         }
     }
 }

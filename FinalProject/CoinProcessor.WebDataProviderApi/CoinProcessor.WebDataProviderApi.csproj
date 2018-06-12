@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CoinProcessor.DataProvider\CoinProcessor.DataProvider.csproj" />
+    <ProjectReference Include="..\CoinProcessor.Configuration\CoinProcessor.Configuration.csproj" />
   </ItemGroup>
 
 </Project>

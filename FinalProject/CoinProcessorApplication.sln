@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinProcessor.Subscriber", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinProcessor.Publisher", "CoinProcessor.Publisher\CoinProcessor.Publisher.csproj", "{32BF2CCD-2B54-4DDA-8B11-A868E9A760B1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinProcessor.WebDataProviderApi", "CoinProcessor.WebDataProviderApi\CoinProcessor.WebDataProviderApi.csproj", "{DB4C8025-6916-417C-9CA6-1061D4680961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinProcessor.Logger", "CoinProcessor.Logger\CoinProcessor.Logger.csproj", "{3535CCD3-5967-43FD-AEEF-3A209B686E45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,14 @@ Global
 		{32BF2CCD-2B54-4DDA-8B11-A868E9A760B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32BF2CCD-2B54-4DDA-8B11-A868E9A760B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32BF2CCD-2B54-4DDA-8B11-A868E9A760B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4C8025-6916-417C-9CA6-1061D4680961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4C8025-6916-417C-9CA6-1061D4680961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4C8025-6916-417C-9CA6-1061D4680961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4C8025-6916-417C-9CA6-1061D4680961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3535CCD3-5967-43FD-AEEF-3A209B686E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3535CCD3-5967-43FD-AEEF-3A209B686E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3535CCD3-5967-43FD-AEEF-3A209B686E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3535CCD3-5967-43FD-AEEF-3A209B686E45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -35,12 +35,12 @@ namespace CoinProcessor.Publisher
                     var config = new PublisherConfiguration
                     {
                         Name = $"Publisher-{taskId}",
-                        ExchangeName = "brokerInput"
+                        ExchangeName = EnpointConfigurationEnum.BrokerInput.ToString()
                     };
 
                     var publisher = publisherProvider.GetPublisher(config);
 
-                    publisher.Publish();
+                    publisher.Publish(40000);
                 }));
             }
 

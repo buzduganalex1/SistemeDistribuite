@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinProcessor.Broker", "CoinProcessor.Broker\CoinProcessor.Broker.csproj", "{72DD714A-1E8D-423E-BC1F-7BDB8D3A7809}"
 EndProject
@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinProcessor.Publisher", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinProcessor.WebDataProviderApi", "CoinProcessor.WebDataProviderApi\CoinProcessor.WebDataProviderApi.csproj", "{DB4C8025-6916-417C-9CA6-1061D4680961}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinProcessor.Logger", "CoinProcessor.Logger\CoinProcessor.Logger.csproj", "{3535CCD3-5967-43FD-AEEF-3A209B686E45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinProcessor.Logger", "CoinProcessor.Logger\CoinProcessor.Logger.csproj", "{DABEA7F6-A41C-4EC1-9998-E7CFDF5EECB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,10 +67,10 @@ Global
 		{DB4C8025-6916-417C-9CA6-1061D4680961}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB4C8025-6916-417C-9CA6-1061D4680961}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB4C8025-6916-417C-9CA6-1061D4680961}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3535CCD3-5967-43FD-AEEF-3A209B686E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3535CCD3-5967-43FD-AEEF-3A209B686E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3535CCD3-5967-43FD-AEEF-3A209B686E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3535CCD3-5967-43FD-AEEF-3A209B686E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABEA7F6-A41C-4EC1-9998-E7CFDF5EECB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABEA7F6-A41C-4EC1-9998-E7CFDF5EECB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABEA7F6-A41C-4EC1-9998-E7CFDF5EECB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABEA7F6-A41C-4EC1-9998-E7CFDF5EECB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

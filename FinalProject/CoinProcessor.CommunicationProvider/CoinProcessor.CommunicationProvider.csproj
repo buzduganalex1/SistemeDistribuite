@@ -20,10 +20,4 @@
     <ProjectReference Include="..\CoinProcessor.Logger\CoinProcessor.Logger.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="LoggerLibrary">
-      <HintPath>Logger\LoggerLibrary.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

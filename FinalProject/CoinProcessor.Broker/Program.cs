@@ -35,6 +35,14 @@ namespace CoinProcessor.Broker
             {
                 var initialBroker = brokerProvider.Get(initialBrokerConfig);
 
+                initialBroker.Initiate();
+            }));
+
+
+            tasks.Add(new Task(() =>
+            {
+                var initialBroker = brokerProvider.Get(initialBrokerConfig);
+
                 initialBroker.Initiate(amountBiggerThan10BrokerConfig, new PriceBiggetThan10BrokerHandler());
             }));
 

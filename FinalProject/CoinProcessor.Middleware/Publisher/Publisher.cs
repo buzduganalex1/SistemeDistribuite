@@ -22,7 +22,7 @@ namespace CoinProcessor.Middleware.Publisher
             this.config = config;
         }
 
-        public void Publish(int numberOfMessages = 0)
+        public void Publish(int numberOfMessages)
         {
             var data = dataProvider.GetCoinData();
 

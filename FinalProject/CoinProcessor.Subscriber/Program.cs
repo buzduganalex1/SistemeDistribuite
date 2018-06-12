@@ -1,4 +1,6 @@
-﻿using CoinProcessor.Configuration;
+﻿using System;
+using System.Linq;
+using CoinProcessor.Configuration;
 using CoinProcessor.Middleware.Subscriber;
 
 namespace CoinProcessor.Subscriber
@@ -7,30 +9,23 @@ namespace CoinProcessor.Subscriber
     {
         public static void Main(string[] args)
         {
-            var subscriberProvider = new SubscriberProvider();
-            var config = new SubscriberConfiguration
+            if (args.Any())
             {
-                ExchangeName = EnpointConfigurationEnum.BrokerOutput.ToString(),
-                BindingKeys = new[] { "*.*.*.dateKey" }
-            };
-            
-            subscriberProvider.Get(config).StartSubscription();
+                Console.WriteLine("Parameters");
 
-            ////if (args.Any())
-            ////{
-            ////    Console.WriteLine("Parameters");
-
-
-
-            ////    //
-
-            ////    args.ToList().ForEach(Console.WriteLine);
-                
-            ////}
-            ////else
-            ////{
-            ////    throw new Exception("Parameters missing.");
-            ////}
+                var subscriberProvider = new SubscriberProvider();
+                var config = new SubscriberConfiguration
+                {
+                    ExchangeName = EnpointConfigurationEnum.BrokerOutput.ToString(),
+                    BindingKeys = args
+                };
+                args.ToList().ForEach(Console.WriteLine);
+                subscriberProvider.Get(config).StartSubscription();
+            }
+            else
+            {
+                throw new Exception("Parameters missing.");
+            }
         }
     }
 }

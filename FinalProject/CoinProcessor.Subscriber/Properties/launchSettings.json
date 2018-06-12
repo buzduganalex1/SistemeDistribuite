@@ -1,7 +1,8 @@
 {
   "profiles": {
     "CoinProcessor.Subscriber": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "*.bitcoin"
     }
   }
 }

@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using CoinProcessor.Configuration;
@@ -61,7 +60,7 @@ namespace CoinProcessor.CommunicationProvider
 
                             channel.BasicPublish(config.ExchangeName, key, null, body);
 
-                            Console.WriteLine($"{key} \n {message} \n");
+                            Console.WriteLine($"{key} \n {numberOfMessages} \n");
 
                             numberOfMessages--;
                         }
@@ -231,8 +230,6 @@ namespace CoinProcessor.CommunicationProvider
                     }
                     
                     var consumer = new EventingBasicConsumer(channel);
-
-                    var counter = 1;
 
                     consumer.Received += (model, ea) =>
                     {

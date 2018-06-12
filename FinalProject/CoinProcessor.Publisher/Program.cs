@@ -10,7 +10,7 @@ namespace CoinProcessor.Publisher
     {
         public static void Main()
         {
-            var publishers = GetPublishers(1);
+            var publishers = GetPublishers(3);
 
             foreach (var publisher in publishers)
             {

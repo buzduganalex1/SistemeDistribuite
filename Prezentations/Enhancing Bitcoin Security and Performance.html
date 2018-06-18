@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enhancing Bitcoin Security and Performance.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+</head>
+<body>
+<h1 id="enhancing-bitcoin-security-and-performance-with-strong-consistency-via-collective-signing">Enhancing Bitcoin Security and Performance with Strong Consistency via Collective Signing</h1>
+<h2 id="context">Context</h2>
+<h2 id="bitcoin-issues">Bitcoin Issues</h2>
+<p>Bitcoin is a decentralized cryptocurrency providing
+an open, self-regulating alternative to classic currencies managed by central authorities such as banks. Bitcoin builds on a peer-to-peer network where users can submit transactions without intermediaries. Special nodes, called miners, collect transactions, solve computational puzzles (proof-of-work) to reach consensus, and add the transactions in form of blocks to a distributed public ledger known as the blockchain.</p>
+<p>The key problem is that Bitcoin’s consensus algorithm
+provides only probabilistic consistency guarantees.</p>
+<p>Bitcoin’s decentralized consensus and security derive
+from an assumption that a majority of the miners, measured
+in terms of hash power or ability to solve hashbased
+proof-of-work puzzles, follows these rules and always
+attempts to extend the longest existing chain.</p>
+<p>Bitcoin’s security is guaranteed by the
+fact that this majority will be extending the legitimate
+chain faster than any corrupt minority that might try to
+rewrite history or double-spend currency. However, Bitcoin’s
+consistency guarantee is only probabilistic, which
+leads to two fundamental problems.</p>
+<ul>
+<li>First, multiple miners might find distinct blocks with the same parent before the network has reached consensus. Such a conflict is called a fork, an inconsistency that is temporarily allowed until one of the chains is extended yet again.</li>
+<li>Second, the Bitcoin block size is currently limited to 1 MB. This limitation in turn results in an upper bound on the number of transactions per second (TPS) the Bitcoin network can handle, estimated to be an average of 7 TPS. For comparison, Paypal handles 500 TPS and VISA even 4000 TPS.</li>
+<li>Temporary forks due to nearsimultaneous keyblock mining, or deliberately introduced by selfish or malicious miners, can still throw the system into an inconsistent state for 10 minutes or more.</li>
+</ul>
+<h2 id="byzcoin-improvements">Byzcoin improvements</h2>
+<p>ByzCoin achieves Byzantine consensus while preserving Bitcoin’s open membership by dynamically forming hash power-proportionate consensus groups that represent recently-successful block miners. ByzCoin employs
+communication trees to optimize transaction commitment and verification under normal operation while guaranteeing safety and liveness under Byzantine faults, up to a near-optimal tolerance of f faulty group members
+among 3 f + 2 total. ByzCoin mitigates double spending and selfish mining attacks by producing collectively signed transaction blocks within one minute of transaction submission. Tree-structured communication further
+reduces this latency to less than 30 seconds. Due to these optimizations, ByzCoin achieves a throughput higher than Paypal currently handles, with a confirmation latency of 15-20 seconds.
+ByzCoin addresses four key challenges in bringing PBFT’s strong consistency to cryptocurrencies:</p>
+<ol>
+<li>Open membership,</li>
+<li>Scalability to hundreds of replicas</li>
+<li>Proof-of-work block conflicts</li>
+<li>Transaction commitment rate.</li>
+</ol>
+<p>ByzCoin builds PBFT atop CoSi, a collective signing protocol that efficiently aggregates hundreds or thousands of signatures. Collective signing reduces both the costs of PBFT rounds and the costs for “light” clients to verify transaction commitment.</p>
+<p>PBFT normally assumes a well-defined, closed group of replicas, conflicting with Bitcoin’s open membership and use of proof-of-work to resist Sybil attacks.</p>
+<p>ByzCoin addresses this conflict by forming consensus groups dynamically from windows of recently mined blocks, giving recent miners shares or voting power
+proportional to their recent commitment of hash power.</p>
+<p>Lastly, to reduce transaction processing latency it adopts the idea from Bitcoin-NG to decouple transaction verification from block mining.</p>
+<p>Experiments with a prototype implementation of ByzCoin show that a consensus group formed from approximately the past 24 hours of successful miners (144 miners) can reach consensus in less than 20 seconds, on blocks of Bitcoin’s current maximum size (1MB). A larger consensus group formed from one week of successful miners (1008) reached consensus on an 8MB block in 90 seconds, showing that the systems scales both with the number of participants and with the block size. For the 144-participant consensus group, with a
+block size of 32MB, the system handles 974 transactions per second (TPS) with a 68-second confirmation latency.</p>
+<p>These experiments suggest that ByzCoin can handle loads higher than PayPal and comparable with Visa.</p>
+<h2 id="practical-byzantine-fault-tolerance-algorithm">Practical Byzantine Fault Tolerance Algorithm</h2>
+<p><strong>The Byzantine Generals Problem</strong> refers to the situation where the malfunctioning of one or several components of a distributed system prevents the latter from reaching an agreement.3 f +1 participants are necessary to be able to tolerate f faults and still reach consensus</p>
+<p><strong>The Practical Byzantine Fault Tolerance (PBFT)</strong> algorithm was the first efficient solution to the <strong>Byzantine Generals Problem</strong> that works in weakly synchronous environments such as the Internet.</p>
+<p>Every round of PBFT has three distinct phases:</p>
+<ol>
+<li>
+<p>In the first, pre-prepare phase, the current primary node or leader announces the next record that the system should agree upon.</p>
+</li>
+<li>
+<p>On receiving this pre-prepare, every node validates the correctness of the proposal and multicasts a prepare message to the group. The nodes wait until they collect a quorum of (2 f +1) prepare messages and publish this observation with a commit message.</p>
+</li>
+<li>
+<p>Finally, they wait for a quorum of (2 f + 1) commit messages to make sure that enough nodes have recorded the decision.</p>
+</li>
+</ol>
+<p>PBFT relies upon a correct leader to begin each round and proceeds if a two-thirds quorum exists; consequently, the leader is an attack target. For this reason PBFT has a view-change protocol that ensures liveness in the face of a faulty leader.</p>
+<p>PBFT has its limitations:</p>
+<ol>
+<li>
+<p>It assumes a fixed, well-defined group of replicas, thus contradicting Bitcoin’s basic principle of being decentralized and open for anyone to participate.</p>
+</li>
+<li>
+<p>Each PBFT replica normally communicates directly with every other replica during each consensus round, resulting in O(n)2) communication complexity: This is acceptable when n is typically 4 or not much more, but becomes impractical if n represents hundreds or thousands of Bitcoin nodes.</p>
+</li>
+<li>
+<p>Third, after submitting a transaction to a PBFT service,a client must communicate with a super-majority of the replicas in order to confirm the transaction has been committed and to learn its outcome, making secure transaction verification unscalable.</p>
+</li>
+</ol>
+<h2 id="cosi-protocol">CoSi Protocol</h2>
+<p>CoSi is a protocol for scalable collective signing, which enables an authority or leader to request that statements be publicly validated and (co-)signed by a decentralized group of witnesses.</p>
+<p>Each protocol run yields a collective signature having size and verification cost comparable to an individual signature, but which compactly attests that both the leader and its witnesses observed and agreed to sign the statement.</p>
+<p>For each message to be collectively signed, the leader then initiates a CoSi four-phase protocol round that require two round-trips over the communication tree between the leader and its witnesses:</p>
+<ol>
+<li>
+<p><strong>Announcement</strong>: The leader broadcasts an announcement of a new round down the communication tree. The announcement can optionally include the message M to be signed, otherwise M is sent in phase three.</p>
+</li>
+<li>
+<p><strong>Commitment</strong>: Each node picks a random secret and uses it to compute a Schnorr commitment. In a bottom-up process, each node obtains an aggregate Schnorr commitment from its immediate children, combines those with its own commitment, and passes a further-aggregated commitment up the tree.</p>
+</li>
+<li>
+<p><strong>Challenge</strong>: The leader computes a collective Schnorr challenge using a cryptographic hash function and broadcasts it down the communication tree, along with the message M to sign, if the latter has not already been sent in phase one.</p>
+</li>
+<li>
+<p><strong>Response</strong>: Using the collective challenge, all nodes compute an aggregate response in a bottom-up fashion that mirrors the commitment phase.</p>
+</li>
+</ol>
+<p>The result of this four-phase protocol is the production of a standard Schnorr signature that requires about 64 bytes, using the Ed25519 elliptic curve, and that anyone can verify against the aggregate public key nearly as
+efficiently as the verification of an individual signature.</p>
+<h2 id="microblocks-and-keyblocks">Microblocks and KeyBlocks</h2>
+<h2 id="performance-evaluation">Performance Evaluation</h2>
+<h2 id="defence-against-bitcoin-attacks">Defence against Bitcoin attacks</h2>
+<h2 id="conclusion">Conclusion</h2>
+
+</body>
+</html>
